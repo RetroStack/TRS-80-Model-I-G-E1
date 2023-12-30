@@ -10,15 +10,16 @@ This project is a faithful reimplementation of the mainboard of the iconic TRS-8
 
 In the "Latest" folder, you'll find the most up-to-date design files, including:
 
-- Gerber files suitable for popular online PCB manufacturers like PCBWay and JLCPCB.
-- A Bill of Materials (BOM) in both CSV and PDF formats.
+- Gerber files suitable for popular online PCB manufacturers like [PCBWay](/Latest/TRS80_Model_I_G_E1_Gerber_PCBWAY.zip) and [JLCPCB](/Latest/TRS80_Model_I_G_E1_Gerber_JLCPCB.zip).
+- A Bill of Materials (BOM) in both [CSV](/Latest/TRS80_Model_I_G_E1_BOM.csv) and [PDF](/Latest/TRS80_Model_I_G_E1_BOM.pdf) formats.
 - Layers exported in PDF and SVG formats.
-- The full schematics of the E1 replica which is 1:1 to the original G board.
+- The [full schematics](/Latest/TRS80_Model_I_G_E1_Schematics.pdf) of the E1 replica which is 1:1 to the original G board.
 
 ### Ordering Instructions
 
 When ordering the board from a PCB manufacturer, you can select the following to get a more faithful version of the board:
 
+```
 Dimension: 407mm x 184mm
 Layers: 2
 Base Material: FR-4 TG 135-140 (and up)
@@ -30,14 +31,13 @@ Surface Finish: Lead Free HASL
 Outer Copper Weight: 1oz
 Gold Fingers / Card Edge: yes (chamfer: 30 degrees)
 Castellated Holes: no
+```
 
 Additionally, supply the following comment for the manufacturer:
 
-'''
-Card edge is only on the upper right. The bottom right is just a connector and does not need to be chamfered.
-
-There are some missing pads on the top layer. That is correct. Please leave them as-is.
-'''
+> Card edge is only on the upper right. The bottom right is just a connector and does not need to be chamfered.
+> 
+> There are some missing pads on the top layer. That is correct. Please leave them as-is.
 
 This addresses recurring questions from some of the interesting designs that were used on the original board which was replicated. See the "Curiosities" section below.
 
