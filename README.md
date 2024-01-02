@@ -104,7 +104,7 @@ For additional resources related to the TRS-80 Model 1, be sure to check out the
 
 ## Support this Project
 
-RetroStack is passionate about exploring and preserving the legacy of older computer systems. Our work involves creating detailed documentation and videos to share our knowledge. We're also dedicated to reviving these classic systems by reimplementing them and offering replacement parts at no cost. If you're keen on supporting this unique project, we invite you to visit our [Patreon page](https://www.patreon.com/RetroStack). Your support would be immensely valuable and greatly appreciated!
+RetroStack is passionate about exploring and preserving the legacy of older computer systems. My work involves creating detailed documentation and videos to share the knowledge. I am also dedicated to reviving these classic systems by reimplementing them and offering replacement parts at no cost. If you're keen on supporting this unique project, I invite you to visit my [Patreon page](https://www.patreon.com/RetroStack). Your support would be immensely valuable and greatly appreciated!
 
 ## License
 
