@@ -109,5 +109,3 @@ RetroStack is passionate about exploring and preserving the legacy of older comp
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Thank you for your interest in the TRS-80 Model 1 (Board G) replica project - E1. We hope that it inspires retro computing enthusiasts and contributes to the preservation of classic computing history. If you have any questions or suggestions, feel free to reach out to us. Happy computing!
