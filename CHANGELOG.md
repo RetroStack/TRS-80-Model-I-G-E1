@@ -1,10 +1,10 @@
 # TRS-80 Model 1 (Rev G) Replica - E1 - Changelog
 
-12th Dec 2023 - E1A Prototype
+## 12th Dec 2023 - E1A Prototype
 
 Completed test. Fully functional.
 
-28th Dec 2023 - E1B
+## 28th Dec 2023 - E1B
 
 - A few traces were modified to more closely resemble the original.
 
