@@ -78,7 +78,7 @@ Next to the two potentiometers for the H- and V-Sync, there is supposed to be a 
 
 ### Undocumented 8k RAM support
 
-The board actually supports two different kinds of 8k ICs for the dynamic RAM. This is not documented in the technical reference manual or the user documentation.
+The board actually supports two different kinds of 8k ICs for the dynamic RAM. This is not documented in the technical reference manual or the user documentation. See Page 7 of the [new schematics](/Latest/TRS80_Model_I_G_E1_Schematics.pdf).
 
 ### Missing Pads (On the Top)
 
@@ -87,9 +87,11 @@ The board actually supports two different kinds of 8k ICs for the dynamic RAM. T
 
 I’ve replicated the "missing pads" on the top of the board as they were on the original board. The pads are only connected at the bottom, so it's fine for them to be missing on the top.
 
-But why was it done this way? At the time, the solder masks weren’t as precise and couldn't adequately cover the traces between pads. Bridging those pads and traces during soldering was (and still is) a common issue on these older boards. That isn’t the case with modern boards, but I still replicated this for the pads only (not the traces in between) to stay closer to the original without the risk of accidental bridging. I guess it's a good compromise.
+But why was it done this way? At the time, the solder masks weren’t as precise and couldn't adequately cover the traces between pads (see purple/magenta and blue arrow). Bridging those pads and traces during soldering was (and still is) a common issue on these older boards (especially the traces or purple/magenta arrow). That isn’t the case with modern boards, but I still replicated this for the pads only (not the traces in between) to stay closer to the original without the risk of accidental bridging. I guess it's a good compromise.
 
-Completely unconnected pins usually lacked pads on the top as well, but KiCAD doesn’t have an option for that, unfortunately. So, I kept them as they are, meaning they have pads on both the top and bottom.
+Completely unconnected pins usually lacked pads on the top as well, but KiCAD doesn’t have an option for that, unfortunately. So, I kept them as they are (see orange arrow), meaning they have pads on both the top and bottom.
+
+The yellow arrow is unrelated to this topic, but you can see the cut trace of the original board which is needed for the lower-case mod.
 
 ### Missing Pads (On the Bottom)
 
