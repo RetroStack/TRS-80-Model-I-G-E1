@@ -1,100 +1,103 @@
-Component Count:,230,,,
-Ref,Qnty,Value,Cmp name,Description
-C1,1,220uF 16V,C_Polarized,Polarized capacitor
-"C2, C4, C5, C10, C11, C57",6,10uF 16V,C_Polarized,Polarized capacitor
-"C3, C7, C14, C15",4,0.01uF 24V,C,Unpolarized capacitor
-C6,1,100uF 16V,C_Polarized,Polarized capacitor
-C8,1,2200uF 35V,C_Polarized,Polarized capacitor
-C9,1,10000uF 16V,C_Polarized,Polarized capacitor
-"C12, C13",2,470pF,C,Unpolarized capacitor
-"C16, C17, C18, C19, C22, C23, C29, C31, C33, C35, C36, C37, C38, C39, C40, C41, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C58",30,0.1uF 12V,C,Unpolarized capacitor
-C20,1,330pF,C,Unpolarized capacitor
-C21,1,750pF,C,Unpolarized capacitor
-"C24, C25",2,220pF,C,Unpolarized capacitor
-C26,1,0.047uF,C,Unpolarized capacitor
-C27,1,0.022uF,C,Unpolarized capacitor
-"C28, C30, C32, C34",4,0.1uF 25V,C,Unpolarized capacitor
-C42,1,22uF 16V,C_Polarized,Polarized capacitor
-C43,1,47pF,C,Unpolarized capacitor
-C_C58,1,0.1uF 12V,C,Unpolarized capacitor
-C_R67,1,220,R,Resistor
-CR1,1,1N4735,D_Zener,Zener diode
-CR2,1,1N5231,D_Zener,Zener diode
-"CR3, CR4, CR5, CR6, CR7",5,1N4148,D,Diode
-CR8,1,MDA202,D_Bridge_+AA-,"Diode bridge, +ve/AC/AC/-ve"
-"CR9, CR10",2,1N982,D_Schottky,Schottky diode
-"J1, J2, J3",3,Front View,DIN-5_180degree,5-pin DIN connector (5-pin DIN-5 stereo)
-J4,1,Edge Connector,Conn_02x20_Odd_Even,"Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"
-J100,1,Connection Mainboard Side,Conn_01x20,"Generic connector, single row, 01x20"
-K1,1,Relay_SPST-NO,TRS80_Model_I_Relay_NO,"Relay SPST, Normally Open, EN50005"
-Q1,1,2N3904,2N3904,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-"Q2, Q5",2,2N3906,2N3906,"-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-Q3,1,TIP29A,Q_NPN_BCE,"NPN transistor, base/collector/emitter"
-Q4,1,2N6594,Q_PNP_BEC,"PNP transistor, base/emitter/collector"
-Q6,1,MJE34,Q_PNP_BCE,"PNP transistor, base/collector/emitter"
-R1,1,68,R,Resistor
-R2,1,2.7k,R,Resistor
-R3,1,750,R,Resistor
-R4,1,0.33,R,Resistor
-"R5, R10",2,1k,R_Potentiometer,Potentiometer
-"R6, R7, R16, R53",4,1.2k,R,Resistor
-R8,1,100k,R,Resistor
-"R9, R11, R12",3,3.3k,R,Resistor
-R13,1,2.2k,R,Resistor
-R14,1,12k,R,Resistor
-R15,1,1.5k,R,Resistor
-R17,1,2k,R,Resistor
-R18,1,5.6,R,Resistor
-R19,1,220,R,Resistor
-"R20, R21",2,100k,R_Potentiometer,Potentiometer
-R22,1,75,R,Resistor
-R23,1,120,R,Resistor
-R24,1,680k,R,Resistor
-R25,1,1.6M,R,Resistor
-"R26, R42",2,1M,R,Resistor
-"R27, R64",2,330,R,Resistor
-R28,1,270,R,Resistor
-R29,1,1.8k,R,Resistor
-R30,1,47,R,Resistor
-R31,1,10,R,Resistor
-"R32, R43, R44, R47, R65",5,10k,R,Resistor
-"R33, R36",2,360k,R,Resistor
-"R34, R35, R38, R41, R45",5,470k,R,Resistor
-R37,1,560k,R,Resistor
-"R39, R40, R48, R49, R50, R51, R57, R58, R59, R60, R61, R62, R63, R66, R67, R68, R69",17,4.7k,R,Resistor
-"R46, R52",2,910,R,Resistor
-"R54, R55",2,7.5k,R,Resistor
-R56,1,220k,R,Resistor
-S1,1,~,SW_4PST,
-S2,1,Reset,SW_DPST,
-Y1,1,10.6445 MHz,Crystal,Two pin crystal
-"Z1, Z2",2,LM723C,LM723C_1,Linear Regulator (adjustable)
-"Z3, Z71",2,~,TRS80ModelIX71,
-Z4,1,LM3900,LM3900,Quad operational amplifier
-Z5,1,74C00,74LS00,quad 2-input NAND gate
-"Z6, Z57",2,74C04,74LS04,Hex Inverter
-"Z7, Z69, Z70",3,74LS74,74LS74,"Dual D Flip-flop, Set & Reset"
-Z8,1,74LS153,74LS153,Dual Multiplexer 4 to 1
-"Z9, Z42, Z52",3,74LS04,74LS04,Hex Inverter
-"Z10, Z11",2,74LS166,74LS166,"Shift Register 8-bit, parallel load"
-"Z12, Z32, Z50, Z65",4,74LS93,74LS93,Divide by 2 & 8 counter
-"Z13, Z14, Z15, Z16, Z17, Z18, Z19, Z20",8,MK4116,4116,16kBit x 1 Bit Dynamic RAM
-Z21,1,74LS156,74LS156,"Dual 2 to 4 lines Decoder/Demultiplexer, Open Collector"
-"Z22, Z38, Z39, Z44, Z55, Z60, Z67, Z68, Z72, Z75, Z76",11,74LS367,74LS367_Split,Hex buffer 3-State outputs
-"Z23, Z25, Z36, Z73",4,74LS32,74LS32,Quad 2-input OR
-"Z24, Z53",2,74LS132,74LS132,Quad 2-input NAND Schmitt trigger
-Z26,1,74LS20,74LS20,Dual 4-input NAND
-"Z27, Z59",2,74LS175,74LS175,"4-bit D Flip-Flop, reset"
-Z28,1,74LS174,74LS174,"Hex D-type Flip-Flop, reset"
-Z29,1,MCM6670,MCM6670P,128 x 7 x 5 Character Generator
-"Z30, Z37",2,74LS02,74LS02,quad 2-input NOR gate
-"Z31, Z35, Z43, Z49, Z51, Z64",6,74LS157,74LS157,Quad 2 to 1 line Multiplexer
-Z33,1,2364_20L,2364_20L,2364 64kBit (8kb x 8) PROM
-Z34,1,2332_20L_21L,2332_20L_21L,2332 32kBit (4kb x 8) PROM
-Z40,1,Z80CPU,Z80,Z80 CPU
-Z41,1,75452,75452,"Dual-Peripheral Drivers for High-Current, High-Speed Switching"
-"Z45, Z46, Z47, Z48, Z61, Z62, Z63",7,2102,2102_1,1K Static RAM (SRAM)
-Z54,1,74LS30,74LS30,8-input NAND
-"Z56, Z58",2,74LS92,74LS92,Divide by 12 counter
-Z66,1,74LS11,74LS11,Triple 3-input AND
-Z74,1,74LS00,74LS00,quad 2-input NAND gate
+Ref,Qnty,Value,Cmp name,Description,Source Comment,Source Cost USD,Source Total Cost USD,Source,Source Link
+C1,1,220uF 16V,C_Polarized,Polarized capacitor,,1.48,1.48,Mouser,https://www.mouser.com/ProductDetail/598-227TTA050M
+"C2, C4, C5, C10, C11, C57",6,10uF 16V,C_Polarized,Polarized capacitor,,0.29,1.74,Mouser,https://www.mouser.com/ProductDetail/598-106RMR050M
+"C3, C7, C14, C15",4,0.01uF 24V,C,Unpolarized capacitor,,0.23,0.92,Mouser,https://www.mouser.com/ProductDetail/594-D103Z25Z5VF63L6R
+C6,1,100uF 16V,C_Polarized,Polarized capacitor,,0.37,0.37,Mouser,https://www.mouser.com/ProductDetail/647-UVZ1J101MPD
+C8,1,2200uF 35V,C_Polarized,Polarized capacitor,,5.31,5.31,Mouser,https://www.mouser.com/ProductDetail/598-228TTA063M
+C9,1,10000uF 16V,C_Polarized,Polarized capacitor,,7.87,7.87,Mouser,https://www.mouser.com/ProductDetail/598-109TTA025M
+"C12, C13",2,470pF,C,Unpolarized capacitor,,0.23,0.46,Mouser,https://www.mouser.com/ProductDetail/594-D471K20Y5PH6UJ5R
+"C16, C17, C18, C19, C22, C23, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C58",34,0.1uF 25V,C,Unpolarized capacitor,,0.17,5.78,Mouser,https://www.mouser.com/ProductDetail/594-K104K10X7RF53L2
+C20,1,330pF,C,Unpolarized capacitor,,0.3,0.3,Mouser,https://www.mouser.com/ProductDetail/594-F331K29Y5RP6UK5R
+C21,1,750pF,C,Unpolarized capacitor,,0.37,0.37,Mouser,https://www.mouser.com/ProductDetail/80-C322C751K3G5TA
+"C24, C25",2,220pF,C,Unpolarized capacitor,,0.23,0.46,Mouser,https://www.mouser.com/ProductDetail/594-D221K20Y5PF63J5R
+C26,1,0.047uF,C,Unpolarized capacitor,,1.9,1.9,Mouser,https://www.mouser.com/ProductDetail/594-222236755473
+C27,1,0.022uF,C,Unpolarized capacitor,,1.34,1.34,Mouser,https://www.mouser.com/ProductDetail/594-2222-366-45223
+C42,1,22uF 16V,C_Polarized,Polarized capacitor,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/710-860010372002
+C43,1,47pF,C,Unpolarized capacitor,,0.4,0.4,Mouser,https://www.mouser.com/ProductDetail/594-S470K25SL0N63L6R
+CR1,1,1N4735,D_Zener,Zener diode,,0.25,0.25,Mouser,https://www.mouser.com/ProductDetail/512-1N4735A
+CR2,1,1N5231,D_Zener,Zener diode,,0.15,0.15,Mouser,https://www.mouser.com/ProductDetail/512-1N5231B
+"CR3, CR4, CR5, CR6, CR7",5,1N4148,D,Diode,,0.1,0.5,Mouser,https://www.mouser.com/ProductDetail/512-1N4148
+CR8,1,MDA202,D_Bridge_+AA-,"Diode bridge, +ve/AC/AC/-ve",Replacement,0.61,0.61,Mouser,https://www.mouser.com/ProductDetail/621-KBP210G
+"CR9, CR10",2,1N982,D_Schottky,Schottky diode,"Replacement, Lower (39V instead of 75V)",0.26,0.52,Mouser,https://www.mouser.com/ProductDetail/78-1N4754A-TAP
+"J1, J2, J3",3,Front View,DIN-5_180degree,5-pin DIN connector (5-pin DIN-5 stereo),,0.386,1.158,AliExpress,https://www.aliexpress.us/item/2255801077942335.html
+J100,1,Connector,Conn_01x20,"Generic connector, single row, 01x20",,0.5,0.5,Mouser,https://www.mouser.com/ProductDetail/649-1012937992002BLF
+K1,1,Relay_SPST-NO,TRS80_Model_I_Relay_NO,"Relay SPST, Normally Open, EN50005",Slightly smaller than original,14.84,14.84,DigiKey,https://www.digikey.com/en/products/detail/sensata-cynergy3/S2-05P/4425813
+Q1,1,2N3904,2N3904,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92",,0.35,0.35,Mouser,https://www.mouser.com/ProductDetail/512-2N3904BU
+"Q2, Q5",2,2N3906,2N3906,"-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92",,0.28,0.56,Mouser,https://www.mouser.com/ProductDetail/512-2N3906BU
+Q3,1,TIP29A,Q_NPN_BCE,"NPN transistor, base/collector/emitter",,1.01,1.01,Mouser,https://www.mouser.com/ProductDetail/863-TIP29AG
+Q4,1,2N6594,Q_PNP_BEC,"PNP transistor, base/emitter/collector",Replacement (Other: RS2040),4.95,4.95,Jameco,https://www.jameco.com/z/2N6287-STMicroelectronics-Bipolar-Darlington-Transistor-PNP-BJT-100V-20A-160W-TO-3_2280119.html
+Q6,1,MJE34,Q_PNP_BCE,"PNP transistor, base/collector/emitter",Replacement,0.67,0.67,Mouser,https://www.mouser.com/ProductDetail/511-TIP32C
+-,1,,,Q4 Heatsink,,1.01,1.01,Mouser,https://www.mouser.com/ProductDetail/532-506007B00
+-,1,,,Q6 Heatsink,Smaller than original,0.3,0.3,Mouser,https://www.mouser.com/ProductDetail/532-507302B00
+R1,1,68,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-68R
+R2,1,2.7k,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JR-522K7
+R3,1,750,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-750R
+R4,1,0.33,R,Resistor 2W,,0.45,0.45,Mouser,https://www.mouser.com/ProductDetail/603-CFR2WSJT-73-0R33
+"R5, R10",2,1k,R_Potentiometer,Potentiometer,,0.57,1.14,Mouser,https://www.mouser.com/ProductDetail/531-PT10H-1K-S
+"R6, R7, R16, R53",4,1.2k,R,Resistor 0.25W,,0.1,0.4,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1K2
+R8,1,100k,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-100K
+"R9, R11, R12",3,3.3k,R,Resistor 0.25W,,0.1,0.3,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-3K3
+R13,1,2.2k,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-2K2
+R14,1,12k,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-12K
+R15,1,1.5k,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-1K5
+R17,1,2k,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-2K
+R18,1,5.6,R,Resistor 3W,,0.57,0.57,Mouser,https://www.mouser.com/ProductDetail/279-EP3WSS5R6J
+"R19, C_R67",1,220,R,Resistor 0.5W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-50JB-52-220R
+"R20, R21",2,100k,R_Potentiometer,Potentiometer,,0.57,1.14,Mouser,https://www.mouser.com/ProductDetail/531-PT10H-100K-S
+R22,1,75,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-75R
+R23,1,120,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-120R
+R24,1,680k,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-680K
+R25,1,1.6M,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1M6
+"R26, R42",2,1M,R,Resistor 0.25W,,0.1,0.2,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-1M
+"R27, R64",2,330,R,Resistor 0.25W,,0.1,0.2,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-330R
+R28,1,270,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-270R
+R29,1,1.8k,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1K8
+R30,1,47,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-47R
+R31,1,10,R,Resistor 0.25W,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-10R
+"R32, R43, R44, R47, R65",5,10k,R,Resistor,,0.1,0.5,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-10K
+"R33, R36",2,360k,R,Resistor,,0.1,0.2,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-360K
+"R34, R35, R38, R41, R45",5,470k,R,Resistor,,0.1,0.5,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-470K
+R37,1,560k,R,Resistor,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-560K
+"R39, R40, R48, R49, R50, R51, R57, R58, R59, R60, R61, R62, R63, R66, R67, R68, R69",17,4.7k,R,Resistor,,0.1,1.7,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-4K7
+"R46, R52",2,910,R,Resistor,,0.1,0.2,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-910R
+"R54, R55",2,7.5k,R,Resistor,,0.1,0.2,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-7K5
+R56,1,220k,R,Resistor,,0.1,0.1,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-220K
+S1,1,Power,SW_4PST,,No Cap,4.34,4.34,DigiKey,https://www.digikey.com/en/products/detail/c-k/F4UEE/417520
+S2,1,Reset,SW_DPST,,Red Cap,1.815,1.815,AliExpress,https://www.aliexpress.us/item/3256804467086494.html
+Y1,1,10.6445 MHz,Crystal,Two pin crystal,Only 10.6MHz,0.73,0.73,Mouser,https://www.mouser.com/ProductDetail/449-LFXTAL028537BULK
+"Z1, Z2",2,LM723C,LM723C_1,Linear Regulator (adjustable),,1.04,2.08,Mouser,https://www.mouser.com/ProductDetail/595-UA723CN
+"Z3, Z71",2,Jumper,TRS80ModelIX71,8-Bit DIP Switch,Replacement,2.07,4.14,Mouser,https://www.mouser.com/ProductDetail/710-418117270908
+Z4,1,LM3900,LM3900,Quad operational amplifier,,0.6,0.6,Mouser,https://www.mouser.com/ProductDetail/595-LM3900NE4
+Z5,1,74C00,74LS00,quad 2-input NAND gate,,0.62,0.62,Mouser,https://www.mouser.com/ProductDetail/595-CD74HC00E
+"Z6, Z57",2,74C04,74LS04,Hex Inverter,,0.47,0.94,Mouser,https://www.mouser.com/ProductDetail/595-SN74HC04AN
+"Z7, Z69, Z70",3,74LS74,74LS74,"Dual D Flip-flop, Set & Reset",,0.49,1.47,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS74AN
+Z8,1,74LS153,74LS153,Dual Multiplexer 4 to 1,,1.13,1.13,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS153N
+"Z9, Z42, Z52",3,74LS04,74LS04,Hex Inverter,,0.67,2.01,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS04N
+"Z10, Z11",2,74LS166,74LS166,"Shift Register 8-bit, parallel load",,1.24,2.48,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS166AN
+"Z12, Z32, Z50, Z65",4,74LS93,74LS93,Divide by 2 & 8 counter,,3.04,12.16,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS93N
+"Z13, Z14, Z15, Z16, Z17, Z18, Z19, Z20",8,MK4116,4116,16kBit x 1 Bit Dynamic RAM,,3.95,31.6,Jameco,https://www.jameco.com/z/4116-15-Major-Brands-IC-4116-15-DRAM-16-384-Bit-16Kx1-150ns-5V_41339.html
+Z21,1,74LS156,74LS156,"Dual 2 to 4 lines Decoder/Demultiplexer, Open Collector",,0.75,0.75,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS156N
+"Z22, Z38, Z39, Z44, Z55, Z60, Z67, Z68, Z72, Z75, Z76",11,74LS367,74LS367_Split,Hex buffer 3-State outputs,,1.44,15.84,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS367AN
+"Z23, Z25, Z36, Z73",4,74LS32,74LS32,Quad 2-input OR,,0.56,2.24,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS32N
+"Z24, Z53",2,74LS132,74LS132,Quad 2-input NAND Schmitt trigger,,1.03,2.06,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS132N
+Z26,1,74LS20,74LS20,Dual 4-input NAND,,1.28,1.28,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS20N
+"Z27, Z59",2,74LS175,74LS175,"4-bit D Flip-Flop, reset",,1.02,2.04,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS175N
+Z28,1,74LS174,74LS174,"Hex D-type Flip-Flop, reset",,1.12,1.12,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS174N
+Z29,1,MCM6670,MCM6670P,128 x 7 x 5 Character Generator,Adapter needed,,0,-,-
+"Z30, Z37",2,74LS02,74LS02,quad 2-input NOR gate,,0.55,1.1,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS02N
+"Z31, Z35, Z43, Z49, Z51, Z64",6,74LS157,74LS157,Quad 2 to 1 line Multiplexer,,0.88,5.28,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS157N
+Z33,1,2364_20L,2364_20L,2364 64kBit (8kb x 8) PROM,Adapter needed,,0,-,-
+Z34,1,2332_20L_21L,2332_20L_21L,2332 32kBit (4kb x 8) PROM,Adapter needed,,0,-,-
+Z40,1,Z80CPU,Z80,Z80 CPU,,9.62,9.62,Mouser,https://www.mouser.com/ProductDetail/692-Z84C0010PEG
+Z41,1,75452,75452,"Dual-Peripheral Drivers for High-Current, High-Speed Switching",,0.9,0.9,Mouser,https://www.mouser.com/ProductDetail/595-SN75452BP
+"Z45, Z46, Z47, Z48, Z61, Z62, Z63",7,2102,2102_1,1K Static RAM (SRAM),,2.95,20.65,Jameco,https://www.jameco.com/z/MM2102AN-4-National-Semiconductor-IC-MM2102AN-4-NMOS-SRAM-1024-Bit-1024x1-250ns-DIP-16_2287991.html
+Z54,1,74LS30,74LS30,8-input NAND,,1.18,1.18,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS30N
+"Z56, Z58",2,74LS92,74LS92,Divide by 12 counter,,3.27,6.54,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS92N
+Z66,1,74LS11,74LS11,Triple 3-input AND,,0.91,0.91,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS11N
+Z74,1,74LS00,74LS00,quad 2-input NAND gate,,0.57,0.57,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS00N
+-,30,DIP-14,DIP-14,DIP-14 Socket,Optional,0.75,22.5,Jameco,https://www.jameco.com/z/14MTLP-Jameco-ValuePro-Socket-IC-14-Pin-Machine-Tooled-Low-Profile-0-3-Inch-Wide_37197.html
+-,39,DIP-16,DIP-16,DIP-16 Socket,Optional,0.85,33.15,Jameco,https://www.jameco.com/z/16MTLP-Jameco-ValuePro-Socket-IC-16-Pin-Machine-Tooled-Low-Profile-0-3-Inch-Wide_37402.html
+-,1,DIP-18,DIP-18,DIP-18 Socket,Optional,0.99,0.99,Jameco,https://www.jameco.com/z/18MTLP-Jameco-ValuePro-18-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-3-Inch-Wide_65585.html
+-,1,DIP-40,DIP-40,DIP-40 Socket,Optional,1.69,1.69,Jameco,https://www.jameco.com/z/40MTLP-Jameco-ValuePro-40-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-6-Inch-Wide_41136.html
+-,1,DIP-8,DIP-8,DIP-8 Socket,Optional,,0,-,-
+-,2,DIP-24,DIP-24,DIP-24 Socket,Optional,1.49,2.98,Jameco,https://www.jameco.com/z/24MTLP-6-Jameco-ValuePro-24-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-6-Inch-Wide_39351.html
