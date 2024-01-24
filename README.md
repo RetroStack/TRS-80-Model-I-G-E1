@@ -56,7 +56,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |C8|1|2200uF 35V|C_Polarized|Polarized capacitor||5.31|5.31|Mouser|https://www.mouser.com/ProductDetail/598-228TTA063M|
 |C9|1|10000uF 16V|C_Polarized|Polarized capacitor||7.87|7.87|Mouser|https://www.mouser.com/ProductDetail/598-109TTA025M|
 |C12, C13|2|470pF|C (471)|Unpolarized capacitor||0.23|0.46|Mouser|https://www.mouser.com/ProductDetail/594-D471K20Y5PH6UJ5R|
-|C16, C17, C18, C19, C22, C23, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C58|34|0.1uF 25V|C|Unpolarized capacitor||0.17|5.78|Mouser|https://www.mouser.com/ProductDetail/594-K104K10X7RF53L2|
+|C16, C17, C18, C19, C22, C23, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C58|34|0.1uF 25V|C (104)|Unpolarized capacitor||0.17|5.78|Mouser|https://www.mouser.com/ProductDetail/594-K104K10X7RF53L2|
 |C20|1|330pF|C (331)|Unpolarized capacitor||0.3|0.3|Mouser|https://www.mouser.com/ProductDetail/594-F331K29Y5RP6UK5R|
 |C21|1|750pF|C (750)|Unpolarized capacitor||0.37|0.37|Mouser|https://www.mouser.com/ProductDetail/80-C322C751K3G5TA|
 |C24, C25|2|220pF|C (221)|Unpolarized capacitor||0.23|0.46|Mouser|https://www.mouser.com/ProductDetail/594-D221K20Y5PF63J5R|
