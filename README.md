@@ -104,14 +104,14 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |R29|1|1.8k|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1K8|
 |R30|1|47|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-47R|
 |R31|1|10|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JT-52-10R|
-|R32, R43, R44, R47, R65|5|10k|R|Resistor||0.1|0.5|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-10K|
-|R33, R36|2|360k|R|Resistor||0.1|0.2|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-360K|
-|R34, R35, R38, R41, R45|5|470k|R|Resistor||0.1|0.5|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-470K|
-|R37|1|560k|R|Resistor||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-560K|
-|R39, R40, R48, R49, R50, R51, R57, R58, R59, R60, R61, R62, R63, R66, R67, R68, R69|17|4.7k|R|Resistor||0.1|1.7|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-4K7|
-|R46, R52|2|910|R|Resistor||0.1|0.2|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-910R|
-|R54, R55|2|7.5k|R|Resistor||0.1|0.2|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-7K5|
-|R56|1|220k|R|Resistor||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-220K|
+|R32, R43, R44, R47, R65|5|10k|R|Resistor 0.25W||0.1|0.5|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-10K|
+|R33, R36|2|360k|R|Resistor 0.25W||0.1|0.2|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-360K|
+|R34, R35, R38, R41, R45|5|470k|R|Resistor 0.25W||0.1|0.5|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-470K|
+|R37|1|560k|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-560K|
+|R39, R40, R48, R49, R50, R51, R57, R58, R59, R60, R61, R62, R63, R66, R67, R68, R69|17|4.7k|R|Resistor 0.25W||0.1|1.7|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-4K7|
+|R46, R52|2|910|R|Resistor 0.25W||0.1|0.2|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-910R|
+|R54, R55|2|7.5k|R|Resistor 0.25W||0.1|0.2|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-7K5|
+|R56|1|220k|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-220K|
 |S1|1|Power|SW_4PST||No Cap|4.34|4.34|DigiKey|https://www.digikey.com/en/products/detail/c-k/F4UEE/417520|
 |S2|1|Reset|SW_DPST||Red Cap|1.815|1.815|AliExpress|https://www.aliexpress.us/item/3256804467086494.html|
 |Y1|1|10.6445 MHz|Crystal|Two pin crystal|Only 10.6MHz|0.73|0.73|Mouser|https://www.mouser.com/ProductDetail/449-LFXTAL028537BULK|
