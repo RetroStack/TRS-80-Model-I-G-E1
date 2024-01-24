@@ -51,19 +51,19 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |-|-|-|-|-|-|-|-|-|-|
 |C1|1|220uF 16V|C_Polarized|Polarized capacitor||1.48|1.48|Mouser|https://www.mouser.com/ProductDetail/598-227TTA050M|
 |C2, C4, C5, C10, C11, C57|6|10uF 16V|C_Polarized|Polarized capacitor||0.29|1.74|Mouser|https://www.mouser.com/ProductDetail/598-106RMR050M|
-|C3, C7, C14, C15|4|0.01uF 24V|C|Unpolarized capacitor||0.23|0.92|Mouser|https://www.mouser.com/ProductDetail/594-D103Z25Z5VF63L6R|
+|C3, C7, C14, C15|4|0.01uF 24V|C (103)|Unpolarized capacitor||0.23|0.92|Mouser|https://www.mouser.com/ProductDetail/594-D103Z25Z5VF63L6R|
 |C6|1|100uF 16V|C_Polarized|Polarized capacitor||0.37|0.37|Mouser|https://www.mouser.com/ProductDetail/647-UVZ1J101MPD|
 |C8|1|2200uF 35V|C_Polarized|Polarized capacitor||5.31|5.31|Mouser|https://www.mouser.com/ProductDetail/598-228TTA063M|
 |C9|1|10000uF 16V|C_Polarized|Polarized capacitor||7.87|7.87|Mouser|https://www.mouser.com/ProductDetail/598-109TTA025M|
-|C12, C13|2|470pF|C|Unpolarized capacitor||0.23|0.46|Mouser|https://www.mouser.com/ProductDetail/594-D471K20Y5PH6UJ5R|
+|C12, C13|2|470pF|C (471)|Unpolarized capacitor||0.23|0.46|Mouser|https://www.mouser.com/ProductDetail/594-D471K20Y5PH6UJ5R|
 |C16, C17, C18, C19, C22, C23, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C58|34|0.1uF 25V|C|Unpolarized capacitor||0.17|5.78|Mouser|https://www.mouser.com/ProductDetail/594-K104K10X7RF53L2|
-|C20|1|330pF|C|Unpolarized capacitor||0.3|0.3|Mouser|https://www.mouser.com/ProductDetail/594-F331K29Y5RP6UK5R|
-|C21|1|750pF|C|Unpolarized capacitor||0.37|0.37|Mouser|https://www.mouser.com/ProductDetail/80-C322C751K3G5TA|
-|C24, C25|2|220pF|C|Unpolarized capacitor||0.23|0.46|Mouser|https://www.mouser.com/ProductDetail/594-D221K20Y5PF63J5R|
-|C26|1|0.047uF|C|Unpolarized capacitor||1.9|1.9|Mouser|https://www.mouser.com/ProductDetail/594-222236755473|
-|C27|1|0.022uF|C|Unpolarized capacitor||1.34|1.34|Mouser|https://www.mouser.com/ProductDetail/594-2222-366-45223|
+|C20|1|330pF|C (331)|Unpolarized capacitor||0.3|0.3|Mouser|https://www.mouser.com/ProductDetail/594-F331K29Y5RP6UK5R|
+|C21|1|750pF|C (750)|Unpolarized capacitor||0.37|0.37|Mouser|https://www.mouser.com/ProductDetail/80-C322C751K3G5TA|
+|C24, C25|2|220pF|C (221)|Unpolarized capacitor||0.23|0.46|Mouser|https://www.mouser.com/ProductDetail/594-D221K20Y5PF63J5R|
+|C26|1|0.047uF|C (47nF)|Unpolarized capacitor||1.9|1.9|Mouser|https://www.mouser.com/ProductDetail/594-222236755473|
+|C27|1|0.022uF|C (22nF)|Unpolarized capacitor||1.34|1.34|Mouser|https://www.mouser.com/ProductDetail/594-2222-366-45223|
 |C42|1|22uF 16V|C_Polarized|Polarized capacitor||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/710-860010372002|
-|C43|1|47pF|C|Unpolarized capacitor||0.4|0.4|Mouser|https://www.mouser.com/ProductDetail/594-S470K25SL0N63L6R|
+|C43|1|47pF|C (47)|Unpolarized capacitor||0.4|0.4|Mouser|https://www.mouser.com/ProductDetail/594-S470K25SL0N63L6R|
 |CR1|1|1N4735|D_Zener|Zener diode||0.25|0.25|Mouser|https://www.mouser.com/ProductDetail/512-1N4735A|
 |CR2|1|1N5231|D_Zener|Zener diode||0.15|0.15|Mouser|https://www.mouser.com/ProductDetail/512-1N5231B|
 |CR3, CR4, CR5, CR6, CR7|5|1N4148|D|Diode||0.1|0.5|Mouser|https://www.mouser.com/ProductDetail/512-1N4148|
@@ -92,7 +92,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |R15|1|1.5k|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JT-52-1K5|
 |R17|1|2k|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-2K|
 |R18|1|5.6|R|Resistor 3W||0.57|0.57|Mouser|https://www.mouser.com/ProductDetail/279-EP3WSS5R6J|
-|R19, C_R67|1|220|R|Resistor 0.5W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-50JB-52-220R|
+|R19, C_R67|2|220|R|Resistor 0.5W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-50JB-52-220R|
 |R20, R21|2|100k|R_Potentiometer|Potentiometer||0.57|1.14|Mouser|https://www.mouser.com/ProductDetail/531-PT10H-100K-S|
 |R22|1|75|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-75R|
 |R23|1|120|R|Resistor 0.25W||0.1|0.1|Mouser|https://www.mouser.com/ProductDetail/603-CFR-25JB-52-120R|
