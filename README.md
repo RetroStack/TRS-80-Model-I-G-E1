@@ -233,7 +233,7 @@ Since the method of tinning has changed (using HASL nowadays) and I don't wave s
 
 ## Main TRS-80 Model 1 Repository
 
-For additional resources related to the TRS-80 Model 1, be sure to check out the central page for the TRS-80 Model 1 on RetroStack. You can find it [here](https://www.github.com/RetroStack/TRS-80-Model-I).
+For additional resources related to the TRS-80 Model 1, be sure to check out the [central page for the TRS-80 Model 1](https://www.github.com/RetroStack/TRS-80-Model-I) on RetroStack.
 
 ## Support this Project
 
