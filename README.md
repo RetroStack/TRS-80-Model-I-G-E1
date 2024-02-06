@@ -15,6 +15,47 @@ In the "Latest" folder, you'll find the most up-to-date design files, including:
 - Layers exported in PDF and SVG formats.
 - The [full schematics](/Latest/TRS80_Model_I_G_E1_Schematics.pdf) of the E1 replica which is 1:1 to the original G board.
 
+### Implementation
+
+E1 has been implemented using KiCAD 7. The KiCAD project files are included in this repository.
+
+![E1 Replica Front](/Latest/TRS80_Model_I_G_E1_3D_Front.png)
+![E1 Replica Back](/Latest/TRS80_Model_I_G_E1_3D_Back.png)
+
+### Assembly Instructions
+
+For each step, check if there is a connection between pad 1, 8, 9, 16 on Z18 (all four corners of the dynamic RAM IC). That IC needs all 3 voltages with ground. If any of them are shorted, then you know what you did most recently. Finding the cause of the short should then be relatively easy.
+
+1) (optional) Install sockets for all ICs. You probably want to skip Z3 and Z71, if you want to use DIP switches instead.
+2) Install all diodes. These diodes are hard to read and if you accidentally mix them up, you might end up with incorrect voltages on the rails. Also, make sure to orient them correctly. There should be a black band on one side of the glass diode. Match this with the "thicker" side of the diode on the PCB. Installing first the shorter components will make sure you still can flip the board around and solder things easily.
+3) Install all resistors. Resistors do not have an orientation. Skip the potentiometers for now. When installing the C_R67 (yes, there is a "C_"), this is an unmarked resistor between relay and the R21 potentiometer. This should be a 220 ohm 0.5W resistor (a bit larger than the others). There is another R67 which is next to Z42, which is a 4.7k Ohm resistor 0.25W (same size as most of the others).
+4) Install all disc-like capacitors. Do not install the electrolytic capacitors yet! All other capacitors are rather small and orientation isn't important. The C58 next to the relay stays empty. Do not install it there. Instead, there is another (!!!) C58 next to the ROMs in the middle of the PCB.
+5) Install all transistors, including the ones with the heatsinks. The TIP29 shoud go into Q3 (metal side away from board towards the Q3 label) while the TIP32C should go into Q6 (lay flat with heatsink; bend legs wit needle-nose pliers to fit). Don't forget to add thermal paste between heatsink and transistors. Make sure to add the screws andnuts and that it fits tightly as the screws themself connect traces. Not having them properly installed will result in a non-functioning system. The smaller black transistors have one flat side. These should all face towards the bottom of the board towards all the ICs (the middle leg needs to be bend slightly out to fit). 
+6) Install the crystal (no orientation), relay (match orientation on PCB; three legs towards the bottom), full-bridge rectifier (CR8; match "+" marking on component with PCB marking), all DIN connectors, both switches, keyboard connector (if bend, bend it upwards - towards the CPU to fit in the case), and potentiometers (only goes in one way). You can also install the DIP switches, if you go with that (numbers on the left side and "ON" label on the right).
+7) Install all electrolytic capacitors. Make sure the orientation is correct! Modern capacitors mark the "-" side. On the PCB, the positive side is marked. All electrolytic capacitors on the PCB are oriented the same way EXCEPT C42 (!!!). Incorrect orientation may result in a small explosion (loud and smokey, but probably not dangerous).
+8) Only install Z1 & Z2 to calibrate the power supply. Don't install any of the other ICs yet!!!
+9) Get Multimeter ready in voltage mode. Connect power, turn on S1. If something starts to smell burned, turn S1 off and disconnect power.
+10) Check voltage between pad 1 (-5V) and pad 16 (GND) on Z18. It should be around -5.1V to -5.2V. Since this is clamped with a zener diode, this should be pretty accurate. There is nothing that needs to be calibrated here. If the voltage goes beyond -5.3V, check R19 (may be really hot! careful!). If R19 is hot to the touch, your power supply is probably broken. (I've seen this on one power supply while another one didn't have that problem.) 
+11) Check voltage between pad 8 (+12V) and pad 16 (GND) on Z18. It should be around +12.0V. If it isn't, change the R10 potentiometer. If it is +/-0.5V off, then this is fine. But, try to get it as close to the desired voltage as possible.
+12) (You need to calibrate +12V first before going to this next step!!!) Check voltage between pad 9 (+5V) and pad 16 (GND) on Z18. It should be around +5.0V. If it isn't, change the R5 potentiometer. If it is +/-0.5V off, then this is fine. But, also here, try to get it close to the desired voltage.
+13) Re-check all the voltages after calibration, just to be sure.
+14) Turn off S1 and disconnect power. Do this for each of the following steps. After each change, re-check the voltages at Z18 to find shorts quickly.
+15) Start inserting the ICs. Focus on the 74LSxx ICs first. They are cheap and are easily recoverable in case there is a short somewhere and you start frying ICs. May be do 2-4 chips at a time and re-check the voltages at Z18. Do this systematically from left to right and top to bottom, so you know which you inserted most recently. If one of the voltages changes significantly at Z18 (+/- 2V and more), then you probably have a short with the most recent ICs. Do not insert the CPU, ROMs, character generator, and RAMs (static (2102) and dynamic ones (4116)) for now. They are expensive to replace if they fry.
+16) Insert the 74HCxx ICs. These ICs are also cheap, but they are very sensitive. If all voltages are good, then they are good to install. 
+17) Connect to a monitor. Use a CRT, if possible, as video calibration is easier. LCD works too, but the reaction time is slow and requires a longer wait time after each change.
+18) After turning on monitor and S1, you should see white blocks on a black background. If you don't see it, try changing R20 (vertical sync) and R21 (horizontal sync). If all fails, try to center both potentiometer. This usually results in a non-optimal picture, but a picture non-the-less. You can then calibrate.
+19) (Don't forget to turn off system!) Insert the static video RAM (2102). These ICs only require +5V.
+20) Now you need to configure the memory addresses and the memory configuration. With DIP switches, configure as follows:
+  - (memory location configuration) Z3: Switch 1 to the left, while all others are to the right. This is the configuration for 12k ROM and 16k RAM.
+  - (memory type configuration) Z71: Switch 1, 3, 5 to the right while all others are to the left. This is the configuration for 16k RAM modules.
+21) Insert the dynamic RAM (41116). These ICs require all three voltages.
+22) Insert CPU. Not much should have changed from the video calibration up until now. The next step will change that.
+23) Insert character generator. Instead of white blocks, you should see (random) characters. The system doesn't clear the video memory yet since no ROM is installed.
+24) Install ROM. This should be a Level II v1.3. If you don't have this, you probably need additional circuity to make these work. You can also burn the [diag ROM](https://github.com/misterblack1/trs80-diagnosticrom/blob/main/trs80m13diag.bin) on a 2k ROM to test the system. The diag ROM should work for all revisions of the TRS-80 Model 1.
+25) At this point, you should see a prompt showing "Memory Size?" that keeps blinking (if it is the normal system ROM). The reason for the blinking is that the keyboard is not yet connected and the system recognizes keypresses. Install the keyboard with the IDC cable (if you installed a header).
+26) Now, you should be able to use the system. Try to hold the left SHIFT key and press the right arrow key and the text size should increase, switching the video modes. (It is OK when some characters are skipped. That is normal.) The CLEAR key should reset it to the original video mode and clear the screen.
+27) Try running a "Hello World!" program: 10 PRINT "Hello World!" (Return) 20 GOTO 10 (Return) RUN (Return). You can stop with the BREAK key.
+
 ### Ordering Instructions
 
 When ordering the board from a PCB manufacturer, you can select the following to get a more faithful version of the board:
@@ -43,7 +84,7 @@ This addresses recurring questions from some of the interesting designs that wer
 
 ### Bill of Materials (BOM)
 
-Below is a list of materials needed to assemble a complete system. Please note that the links and prices (as of January 22, 2024) will not be updated in the future and should only be used as a reference for locating the correct items.
+Below is a list of materials needed to assemble a complete system. Please note that the links and prices (scroll to the right to see them; as of January 22, 2024) will not be updated in the future and should only be used as a reference for locating the correct items.
 
 Note: Links and alternatives are provided to assist you in finding the necessary components. I cannot guarantee the complete accuracy or reliability of all these links and alternatives. Please check it for yourself!
 
@@ -151,13 +192,6 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |-|1|DIP-40|DIP-40|DIP-40 Socket|Optional|1.69|1.69|Jameco|https://www.jameco.com/z/40MTLP-Jameco-ValuePro-40-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-6-Inch-Wide_41136.html|
 |-|1|DIP-8|DIP-8|DIP-8 Socket|Optional||0|-|-|
 |-|2|DIP-24|DIP-24|DIP-24 Socket|Optional|1.49|2.98|Jameco|https://www.jameco.com/z/24MTLP-6-Jameco-ValuePro-24-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-6-Inch-Wide_39351.html|
-
-### Implementation
-
-E1 has been implemented using KiCAD 7. The KiCAD project files are included in this repository.
-
-![E1 Replica Front](/Latest/TRS80_Model_I_G_E1_3D_Front.png)
-![E1 Replica Back](/Latest/TRS80_Model_I_G_E1_3D_Back.png)
 
 ### RetroStack Libraries
 
