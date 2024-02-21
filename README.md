@@ -13,6 +13,7 @@ In the "Latest" folder, you'll find the most up-to-date design files, including:
 - Gerber files suitable for popular online PCB manufacturers like [PCBWay](/Latest/TRS80_Model_I_G_E1_Gerber_PCBWAY.zip) and [JLCPCB](/Latest/TRS80_Model_I_G_E1_Gerber_JLCPCB.zip). Most manufacturers should be fine with either.
 - A Bill of Materials (BOM) in both [CSV](/Latest/TRS80_Model_I_G_E1_BOM.csv) and [PDF](/Latest/TRS80_Model_I_G_E1_BOM.pdf) formats. (Also, see the list below.)
 - Layers exported in PDF and SVG formats.
+- If you have trouble identifying components, refer to the [labels SVG](/Latest/TRS80_Model_I_G_E1_Labels.svg).
 - The [full schematics](/Latest/TRS80_Model_I_G_E1_Schematics.pdf) of the E1 replica which is 1:1 to the original G board.
 
 ### Implementation
@@ -186,12 +187,12 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |Z56, Z58|2|74LS92|74LS92|Divide by 12 counter||3.27|6.54|Mouser|https://www.mouser.com/ProductDetail/595-SN74LS92N|
 |Z66|1|74LS11|74LS11|Triple 3-input AND||0.91|0.91|Mouser|https://www.mouser.com/ProductDetail/595-SN74LS11N|
 |Z74|1|74LS00|74LS00|quad 2-input NAND gate||0.57|0.57|Mouser|https://www.mouser.com/ProductDetail/595-SN74LS00N|
-|-|30|DIP-14|DIP-14|DIP-14 Socket|Optional|0.75|22.5|Jameco|https://www.jameco.com/z/14MTLP-Jameco-ValuePro-Socket-IC-14-Pin-Machine-Tooled-Low-Profile-0-3-Inch-Wide_37197.html|
-|-|39|DIP-16|DIP-16|DIP-16 Socket|Optional|0.85|33.15|Jameco|https://www.jameco.com/z/16MTLP-Jameco-ValuePro-Socket-IC-16-Pin-Machine-Tooled-Low-Profile-0-3-Inch-Wide_37402.html|
-|-|1|DIP-18|DIP-18|DIP-18 Socket|Optional|0.99|0.99|Jameco|https://www.jameco.com/z/18MTLP-Jameco-ValuePro-18-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-3-Inch-Wide_65585.html|
-|-|1|DIP-40|DIP-40|DIP-40 Socket|Optional|1.69|1.69|Jameco|https://www.jameco.com/z/40MTLP-Jameco-ValuePro-40-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-6-Inch-Wide_41136.html|
-|-|1|DIP-8|DIP-8|DIP-8 Socket|Optional||0|-|-|
-|-|2|DIP-24|DIP-24|DIP-24 Socket|Optional|1.49|2.98|Jameco|https://www.jameco.com/z/24MTLP-6-Jameco-ValuePro-24-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-6-Inch-Wide_39351.html|
+|Machined DIP Socket 8 pin|1|DIP-8|DIP-8|DIP-8 Socket|Optional|0.49|0.49|Jameco|https://www.jameco.com/z/6100-8-R-Jameco-ValuePro-IC-Socket-8-Pin-Machine-Tooled-Low-Profile-0-3-Inch-Wide_51626.html|
+|Machined DIP Socket 8 pin|30|DIP-14|DIP-14|DIP-14 Socket|Optional|0.75|22.5|Jameco|https://www.jameco.com/z/14MTLP-Jameco-ValuePro-Socket-IC-14-Pin-Machine-Tooled-Low-Profile-0-3-Inch-Wide_37197.html|
+|Machined DIP Socket 16 pin|39|DIP-16|DIP-16|DIP-16 Socket|Optional|0.85|33.15|Jameco|https://www.jameco.com/z/16MTLP-Jameco-ValuePro-Socket-IC-16-Pin-Machine-Tooled-Low-Profile-0-3-Inch-Wide_37402.html|
+|Machined DIP Socket 18 pin|1|DIP-18|DIP-18|DIP-18 Socket|Optional|0.99|0.99|Jameco|https://www.jameco.com/z/18MTLP-Jameco-ValuePro-18-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-3-Inch-Wide_65585.html|
+|Machined DIP Socket 24 pin|2|DIP-24|DIP-24|DIP-24 Socket|Optional|1.49|2.98|Jameco|https://www.jameco.com/z/24MTLP-6-Jameco-ValuePro-24-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-6-Inch-Wide_39351.html|
+|Machined DIP Socket 40 pin|1|DIP-40|DIP-40|DIP-40 Socket|Optional|1.69|1.69|Jameco|https://www.jameco.com/z/40MTLP-Jameco-ValuePro-40-Pin-Machine-Tooled-Low-Profile-IC-Socket-0-6-Inch-Wide_41136.html|
 
 ### RetroStack Libraries
 

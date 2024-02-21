@@ -2284,7 +2284,7 @@
     (uuid fd7eac48-3a94-4682-a506-5798d2922af0)
   )
 
-  (text "14V AC\n1A" (at 49.53 81.28 0)
+  (text "12V-20V AC\n1A" (at 51.435 81.28 0)
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 82f37e4b-656a-4b79-8f2a-fe84a8e6c85e)
   )
@@ -2304,7 +2304,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid c414b151-f760-4a7f-bb39-3592776e33b2)
   )
-  (text "19.8V DC\n350mA" (at 34.29 93.98 0)
+  (text "14V-20V DC\n350mA" (at 34.29 93.98 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid e67f0778-a222-4c33-a5b9-c26180554ab5)
   )

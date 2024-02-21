@@ -7,7 +7,7 @@ I've devised a versioning system for my replica projects. This system provides c
 Here's the format for the versioning:
 - The initial character is always an "E," representing my last name. This choice ensures that others can adopt the same versioning style if needed.
 - The following character is a number, with "1" signifying a 1-1 re-implementation of the original. Numbers beyond "1" denote various board variations, such as new designs features, more modern components, or different interface ports.
-- The final character represents my actual revision of that boad. Using a character for this purpose distinguishes it from the re-implementation type mentioned above, and it allows for up to 26 revisions to refine the project.
+- The final character represents my actual revision of that board. Using a character for this purpose distinguishes it from the re-implementation type mentioned above, and it allows for up to 26 revisions to refine the project.
 
 ## 12th Dec 2023 - E1A Prototype
 
@@ -26,3 +26,7 @@ Completed test. Fully functional.
 
 - The holes for several through-hole components (diodes) were enlarged. Previously, these holes were a bit tight.
 
+## 20th Feb 2024 - E1B (no version change; only local files)
+
+- New file "Labels" in SVG format was added to help identify components.
+- Various updates to the BOM by Jay Newirth.
