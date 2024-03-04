@@ -30,3 +30,7 @@ Completed test. Fully functional.
 
 - New file "Labels" in SVG format was added to help identify components.
 - Various updates to the BOM by Jay Newirth.
+
+## 3rd March 2024 - E1B (no version change; only local files)
+
+- Assembly Guide as PDF (suggested by Jay Newirth)
