@@ -15,6 +15,7 @@ In the "Latest" folder, you'll find the most up-to-date design files, including:
 - Layers exported in PDF and SVG formats.
 - If you have trouble identifying components, refer to the [labels SVG](/Latest/TRS80_Model_I_G_E1_Labels.svg).
 - The [full schematics](/Latest/TRS80_Model_I_G_E1_Schematics.pdf) of the E1 replica which is 1:1 to the original G board.
+- A simple [Assembly Guide](/Latest/TRS80_Model_I_G_E1_AssemblyGuide.pdf) in PDF format.
 
 ### Implementation
 
