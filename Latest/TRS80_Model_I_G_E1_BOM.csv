@@ -25,41 +25,41 @@ K1,1,Relay_SPST-NO,TRS80_Model_I_Relay_NO,"Relay SPST, Normally Open, EN50005",S
 Q1,1,2N3904,2N3904,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92",,$0.35,$0.35,Mouser,https://www.mouser.com/ProductDetail/512-2N3904BU
 "Q2, Q5",2,2N3906,2N3906,"-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92",,$0.28,$0.56,Mouser,https://www.mouser.com/ProductDetail/512-2N3906BU
 Q3,1,TIP29A,Q_NPN_BCE,"NPN transistor, base/collector/emitter",,$1.01,$1.01,Mouser,https://www.mouser.com/ProductDetail/863-TIP29AG
-Q4,1,2N6594,Q_PNP_BEC,"PNP transistor, base/emitter/collector",Replacement RS2040,$4.95,$4.95,Jameco,https://www.jameco.com/z/2N6287-STMicroelectronics-Bipolar-Darlington-Transistor-PNP-BJT-100V-20A-160W-TO-3_2280119.html
+Q4,1,2N6594,Q_PNP_BEC,"PNP transistor, base/emitter/collector",Replacement RS2040,$10.00,$10.00,eBay,-
 Q6,1,MJE34,Q_PNP_BCE,"PNP transistor, base/collector/emitter",Replacement TIP32C,$0.67,$0.67,Mouser,https://www.mouser.com/ProductDetail/511-TIP32C
 -,1,,,Q4 Heatsink,,$1.01,$1.01,Mouser,https://www.mouser.com/ProductDetail/532-506007B00
 -,1,,,Q6 Heatsink,Smaller than original,$0.30,$0.30,Mouser,https://www.mouser.com/ProductDetail/532-507302B00
-R1,1,68,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-68R
-R2,1,2.7k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JR-522K7
-R3,1,750,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-750R
-R4,1,0.33,R,Resistor 2W,,$0.45,$0.45,Mouser,https://www.mouser.com/ProductDetail/603-CFR2WSJT-73-0R33
-"R6, R7, R16, R53",4,1.2k,R,Resistor 0.25W,,$0.10,$0.40,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1K2
-R8,1,100k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-100K
-"R9, R11, R12",3,3.3k,R,Resistor 0.25W,,$0.10,$0.30,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-3K3
-R13,1,2.2k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-2K2
-R14,1,12k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-12K
-R15,1,1.5k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-1K5
-R17,1,2k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-2K
-R18,1,5.6,R,Resistor 3W,,$0.57,$0.57,Mouser,https://www.mouser.com/ProductDetail/279-EP3WSS5R6J
-"R19, C_R67",2,220,R,Resistor 0.5W,C_R67 is located to the left of K1,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-50JB-52-220R
-R22,1,75,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-75R
-R23,1,120,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-120R
-R24,1,680k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-680K
-R25,1,1.6M,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1M6
-"R26, R42",2,1M,R,Resistor 0.25W,,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-1M
-"R27, R64",2,330,R,Resistor 0.25W,,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-330R
-R28,1,270,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-270R
-R29,1,1.8k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1K8
-R30,1,47,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-47R
-R31,1,10,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-10R
-"R32, R43, R44, R47, R65",5,10k,R,Resistor 0.25W,"R44 is located in the bottom left corner R65 is located at the reset switch",$0.10,$0.50,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-10K
-"R33, R36",2,360k,R,Resistor 0.25W,,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-360K
-"R34, R35, R38, R41, R45",5,470k,R,Resistor 0.25W,,$0.10,$0.50,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-470K
-R37,1,560k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-560K
-"R39, R40, R48, R49, R50, R51, R57, R58, R59, R60, R61, R62, R63, R66, R67, R68, R69",17,4.7k,R,Resistor 0.25W,R67 is located to the left of Z42,$0.10,$1.70,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-4K7
-"R46, R52",2,910,R,Resistor 0.25W,,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-910R
-"R54, R55",2,7.5k,R,Resistor 0.25W,,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-7K5
-R56,1,220k,R,Resistor 0.25W,,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-220K
+R1,1,68,,"Resistor 0.25W (blue, grey, black, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-68R
+R2,1,2.7k,,"Resistor 0.25W (red, violet, red, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JR-522K7
+R3,1,750,,"Resistor 0.25W (violet, green, brown, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-750R
+R4,1,0.33,,"Resistor 2W (orange, orange, silver, gold)",,$0.45,$0.45,Mouser,https://www.mouser.com/ProductDetail/603-CFR2WSJT-73-0R33
+"R6, R7, R16, R53",4,1.2k,,"Resistor 0.25W (brown, red, red, gold)",,$0.10,$0.40,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1K2
+R8,1,100k,,"Resistor 0.25W (brown, black, yellow, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-100K
+"R9, R11, R12",3,3.3k,,"Resistor 0.25W (orange, orange, red, gold)",,$0.10,$0.30,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-3K3
+R13,1,2.2k,,"Resistor 0.25W (red, red, red, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-2K2
+R14,1,12k,,"Resistor 0.25W (brown, red, orange, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-12K
+R15,1,1.5k,,"Resistor 0.25W (brown, green, red, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-1K5
+R17,1,2k,,"Resistor 0.25W (red, black, red, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-2K
+R18,1,5.6,,"Resistor 3W (green, blue, gold, gold)",,$0.57,$0.57,Mouser,https://www.mouser.com/ProductDetail/279-EP3WSS5R6J
+"R19, C_R67",2,220,,"Resistor 0.5W (red, red, brown, gold)",C_R67 is located to the left of K1,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-50JB-52-220R
+R22,1,75,,"Resistor 0.25W (violet, green, black, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-75R
+R23,1,120,,"Resistor 0.25W (brown, red, brown, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-120R
+R24,1,680k,,"Resistor 0.25W (blue, grey, yellow, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-680K
+R25,1,1.6M,,"Resistor 0.25W (brown, blue, green, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1M6
+"R26, R42",2,1M,,"Resistor 0.25W (brown, black, green, gold)",,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-1M
+"R27, R64",2,330,,"Resistor 0.25W (orange, orange, brown, gold)",,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-330R
+R28,1,270,,"Resistor 0.25W (red, violet, brown, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-270R
+R29,1,1.8k,,"Resistor 0.25W (brown, grey, red, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-1K8
+R30,1,47,,"Resistor 0.25W (yellow, violet, black, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-47R
+R31,1,10,,"Resistor 0.25W (brown, black, black, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JT-52-10R
+"R32, R43, R44, R47, R65",5,10k,,"Resistor 0.25W (brown, black, orange, gold)","R44 is located in the bottom left corner R65 is located at the reset switch",$0.10,$0.50,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-10K
+"R33, R36",2,360k,,"Resistor 0.25W (orange, blue, yellow, gold)",,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-360K
+"R34, R35, R38, R41, R45",5,470k,,"Resistor 0.25W (yellow, violet, yellow, gold)",,$0.10,$0.50,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-470K
+R37,1,560k,,"Resistor 0.25W (green, blue, yellow, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-560K
+"R39, R40, R48, R49, R50, R51, R57, R58, R59, R60, R61, R62, R63, R66, R67, R68, R69",17,4.7k,,"Resistor 0.25W (yellow, violet, red, gold)",R67 is located to the left of Z42,$0.10,$1.70,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-4K7
+"R46, R52",2,910,,"Resistor 0.25W (white, brown, brown, gold)",,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-910R
+"R54, R55",2,7.5k,,"Resistor 0.25W (violet, blue, red, gold)",,$0.10,$0.20,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-7K5
+R56,1,220k,,"Resistor 0.25W (red, red, yellow, gold)",,$0.10,$0.10,Mouser,https://www.mouser.com/ProductDetail/603-CFR-25JB-52-220K
 "R5, R10",2,1k,R_Potentiometer,Potentiometer,,$0.57,$1.14,Mouser,https://www.mouser.com/ProductDetail/531-PT10H-1K-S
 "R20, R21",2,100k,R_Potentiometer,Potentiometer,,$0.57,$1.14,Mouser,https://www.mouser.com/ProductDetail/531-PT10H-100K-S
 S1,1,Power,SW_4PST,,,$4.34,$4.34,DigiKey,https://www.digikey.com/en/products/detail/c-k/F4UEE/417520

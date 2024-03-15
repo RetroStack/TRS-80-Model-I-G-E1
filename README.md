@@ -118,7 +118,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |Q1|1|2N3904 0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92||0.35|0.35|[Mouser](https://www.mouser.com/ProductDetail/512-2N3904BU)|
 |Q2, Q5|2|2N3906 -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92||0.28|0.56|[Mouser](https://www.mouser.com/ProductDetail/512-2N3906BU)|
 |Q3|1|TIP29A (BCE) NPN transistor||1.01|1.01|[Mouser](https://www.mouser.com/ProductDetail/863-TIP29AG)|
-|Q4|1|2N6594 (BEC) PNP transistor|Replacement (Other: RS2040)|4.95|4.95|[Jameco](https://www.jameco.com/z/2N6287-STMicroelectronics-Bipolar-Darlington-Transistor-PNP-BJT-100V-20A-160W-TO-3_2280119.html)|
+|Q4|1|2N6594 (BEC) PNP transistor|Replacement (Other: RS2040)|10|10|eBay|
 |Q6|1|MJE34 (BCE) PNP transistor|Replacement|0.67|0.67|[Mouser](https://www.mouser.com/ProductDetail/511-TIP32C)|
 |-|1|Q4 Heatsink||1.01|1.01|[Mouser](https://www.mouser.com/ProductDetail/532-506007B00)|
 |-|1|Q6 Heatsink|Smaller than original|0.3|0.3|[Mouser](https://www.mouser.com/ProductDetail/532-507302B00)|

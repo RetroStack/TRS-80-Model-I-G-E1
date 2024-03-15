@@ -34,3 +34,7 @@ Completed test. Fully functional.
 ## 3rd March 2024 - E1B (no version change; only local files)
 
 - Assembly Guide as PDF (suggested by Jay Newirth)
+
+## 14th March 2024 - E1B (no version change; only local files)
+
+- Updated BOM to remove 2N6287 as alternative. Has worked, but transistor introduces a lot of noise in 5V rail, causing a shaky video output.
