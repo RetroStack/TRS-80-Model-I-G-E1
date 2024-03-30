@@ -25,7 +25,7 @@ K1,1,Relay_SPST-NO,TRS80_Model_I_Relay_NO,"Relay SPST, Normally Open, EN50005",S
 Q1,1,2N3904,2N3904,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92",,$0.35,$0.35,Mouser,https://www.mouser.com/ProductDetail/512-2N3904BU
 "Q2, Q5",2,2N3906,2N3906,"-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92",,$0.28,$0.56,Mouser,https://www.mouser.com/ProductDetail/512-2N3906BU
 Q3,1,TIP29A,Q_NPN_BCE,"NPN transistor, base/collector/emitter",,$1.01,$1.01,Mouser,https://www.mouser.com/ProductDetail/863-TIP29AG
-Q4,1,2N6594,Q_PNP_BEC,"PNP transistor, base/emitter/collector",Replacement RS2040,$10.00,$10.00,eBay,-
+Q4,1,2N6594,Q_PNP_BEC,"PNP transistor, base/emitter/collector","Replacement RS2040, MJ2955G",$4.75,$4.75,Mouser,https://www.mouser.com/ProductDetail/863-MJ2955G
 Q6,1,MJE34,Q_PNP_BCE,"PNP transistor, base/collector/emitter",Replacement TIP32C,$0.67,$0.67,Mouser,https://www.mouser.com/ProductDetail/511-TIP32C
 -,1,,,Q4 Heatsink,,$1.01,$1.01,Mouser,https://www.mouser.com/ProductDetail/532-506007B00
 -,1,,,Q6 Heatsink,Smaller than original,$0.30,$0.30,Mouser,https://www.mouser.com/ProductDetail/532-507302B00
@@ -83,14 +83,14 @@ Z21,1,74LS156,74LS156,"Dual 2 to 4 lines Decoder/Demultiplexer, Open Collector",
 Z26,1,74LS20,74LS20,Dual 4-input NAND,,$1.28,$1.28,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS20N
 "Z27, Z59",2,74LS175,74LS175,"4-bit D Flip-Flop, reset",,$1.02,$2.04,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS175N
 Z28,1,74LS174,74LS174,"Hex D-type Flip-Flop, reset",,$1.12,$1.12,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS174N
-Z29,1,MCM6670,MCM6670P,128 x 7 x 5 Character Generator,Adapter needed,,,-,-
+Z29,1,MCM6670,MCM6670P,128 x 7 x 5 Character Generator,Adapter needed,,,GitHub,https://github.com/RetroStack/MCM776x_CharGen_Adapter
 "Z30, Z37",2,74LS02,74LS02,quad 2-input NOR gate,,$0.55,$1.10,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS02N
 "Z31, Z35, Z43, Z49, Z51, Z64",6,74LS157,74LS157,Quad 2 to 1 line Multiplexer,,$0.88,$5.28,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS157N
 Z33,1,2364_20L,2364_20L,2364 64kBit (8kb x 8) PROM,Adapter needed,,,-,-
 Z34,1,2332_20L_21L,2332_20L_21L,2332 32kBit (4kb x 8) PROM,Adapter needed,,,-,-
 Z40,1,Z80CPU,Z80,Z80 CPU,,$9.62,$9.62,Mouser,https://www.mouser.com/ProductDetail/692-Z84C0010PEG
 Z41,1,75452,75452,"Dual-Peripheral Drivers for High-Current, High-Speed Switching",,$0.90,$0.90,Mouser,https://www.mouser.com/ProductDetail/595-SN75452BP
-"Z45, Z46, Z47, Z48, Z61, Z62, Z63",7,2102,2102_1,1K Static RAM (SRAM),,$2.95,$20.65,Jameco,https://www.jameco.com/z/MM2102AN-4-National-Semiconductor-IC-MM2102AN-4-NMOS-SRAM-1024-Bit-1024x1-250ns-DIP-16_2287991.html
+"Z45, Z46, Z47, Z48, Z61, Z62, Z63",7,2102,2102_1,1K Static RAM (SRAM),Add another one for lower-case mod,$2.95,$20.65,Jameco,https://www.jameco.com/z/MM2102AN-4-National-Semiconductor-IC-MM2102AN-4-NMOS-SRAM-1024-Bit-1024x1-250ns-DIP-16_2287991.html
 Z54,1,74LS30,74LS30,8-input NAND,,$1.18,$1.18,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS30N
 "Z56, Z58",2,74LS92,74LS92,Divide by 12 counter,,$3.27,$6.54,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS92N
 Z66,1,74LS11,74LS11,Triple 3-input AND,,$0.91,$0.91,Mouser,https://www.mouser.com/ProductDetail/595-SN74LS11N

@@ -3863,7 +3863,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0288b5c1-64e3-49dd-9b77-ba5835ccf0ec)
   )
-  (hierarchical_label "MODESEL" (shape input) (at 182.245 160.02 0) (fields_autoplaced)
+  (hierarchical_label "MODESEL" (shape output) (at 182.245 160.02 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 11992931-fac4-4105-a77e-13f23341ff1b)
   )

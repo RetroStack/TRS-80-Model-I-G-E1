@@ -523,6 +523,10 @@
       ""
     ],
     [
+      "1beece86-3b4a-4528-b6de-6e777f4265b9",
+      "Clock"
+    ],
+    [
       "0ab2fab6-b04a-4f25-a580-296023741860",
       "CPU"
     ],
@@ -531,20 +535,32 @@
       "CPU Gating"
     ],
     [
-      "1beece86-3b4a-4528-b6de-6e777f4265b9",
-      "Clock"
+      "a2cfdb32-ecf2-4960-9506-4d0e24768ee5",
+      "Address Decoder"
     ],
     [
-      "e8e2768d-1c31-44b7-9c97-1f6afdbdd687",
-      "Video RAM"
+      "2fce28aa-8a35-4a6c-89c5-f61fb5a4b4a4",
+      "RAM"
     ],
     [
-      "fca549a5-e8f1-40f8-977f-c053ce4b0568",
-      "Video Generator"
+      "3b8535c9-4ba9-4538-bf25-cec19f23796f",
+      "RAM-ROM Interface"
     ],
     [
-      "f23b5b44-0891-4bfb-8cc7-603f3d6a25b8",
-      "Video Mixer"
+      "6cd9c89f-afcb-43da-8ac4-cd518bb64db5",
+      "ROM"
+    ],
+    [
+      "c0493632-24e5-4795-9b6c-ff4a3208e734",
+      "Keyboard"
+    ],
+    [
+      "343ab6b6-7641-4159-a973-f04d1b19633d",
+      "Cassette Interface"
+    ],
+    [
+      "1877028c-ddc2-43ad-b4b6-3d47d856cb44",
+      "Video"
     ],
     [
       "c40ca7b4-f41e-4871-914c-d85ec155735a",
@@ -555,48 +571,36 @@
       "Video Access Multiplexer"
     ],
     [
-      "35cfc821-88b1-4943-bf2c-387c3e927dcd",
-      "Video Sync"
-    ],
-    [
-      "db5c144a-cf6c-4b59-b409-1129cf99ddb7",
-      "Power"
-    ],
-    [
-      "343ab6b6-7641-4159-a973-f04d1b19633d",
-      "Cassette Interface"
-    ],
-    [
-      "90bdf1a0-2a35-4a89-ad39-9e5d6ef49515",
-      "Capacitors"
-    ],
-    [
-      "6cd9c89f-afcb-43da-8ac4-cd518bb64db5",
-      "ROM"
-    ],
-    [
-      "2fce28aa-8a35-4a6c-89c5-f61fb5a4b4a4",
-      "RAM"
-    ],
-    [
-      "c0493632-24e5-4795-9b6c-ff4a3208e734",
-      "Keyboard"
-    ],
-    [
-      "a2cfdb32-ecf2-4960-9506-4d0e24768ee5",
-      "Address Decoder"
-    ],
-    [
-      "1877028c-ddc2-43ad-b4b6-3d47d856cb44",
-      "Video"
+      "e8e2768d-1c31-44b7-9c97-1f6afdbdd687",
+      "Video RAM"
     ],
     [
       "70596fa4-2c1f-4d6c-91a4-059bac433406",
       "Video Latch"
     ],
     [
+      "fca549a5-e8f1-40f8-977f-c053ce4b0568",
+      "Video Generator"
+    ],
+    [
+      "35cfc821-88b1-4943-bf2c-387c3e927dcd",
+      "Video Sync"
+    ],
+    [
+      "f23b5b44-0891-4bfb-8cc7-603f3d6a25b8",
+      "Video Mixer"
+    ],
+    [
       "c3088335-7101-489d-beac-b678c1b1ad50",
       "Card-Edge Interface"
+    ],
+    [
+      "db5c144a-cf6c-4b59-b409-1129cf99ddb7",
+      "Power"
+    ],
+    [
+      "90bdf1a0-2a35-4a89-ad39-9e5d6ef49515",
+      "Capacitors"
     ]
   ],
   "text_variables": {}
