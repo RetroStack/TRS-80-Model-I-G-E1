@@ -43,14 +43,14 @@ For each step, check if there is a connection between pad 1, 8, 9, 16 on Z18 (al
 13) Re-check all the voltages after calibration, just to be sure.
 14) Turn off S1 and disconnect power. Do this for each of the following steps. After each change, re-check the voltages at Z18 to find shorts quickly.
 15) Start inserting the ICs. Focus on the 74LSxx ICs first. They are cheap and are easily recoverable in case there is a short somewhere and you start frying ICs. May be do 2-4 chips at a time and re-check the voltages at Z18. Do this systematically from left to right and top to bottom, so you know which you inserted most recently. If one of the voltages changes significantly at Z18 (+/- 2V and more), then you probably have a short with the most recent ICs. Do not insert the CPU, ROMs, character generator, and RAMs (static (2102) and dynamic ones (4116)) for now. They are expensive to replace if they fry.
-16) Insert the 74HCxx ICs. These ICs are also cheap, but they are very sensitive. If all voltages are good, then they are good to install. 
+16) Insert the 74Cxx ICs. These ICs are also cheap, but they are very sensitive. If all voltages are good, then they are good to install. 
 17) Connect to a monitor. Use a CRT, if possible, as video calibration is easier. LCD works too, but the reaction time is slow and requires a longer wait time after each change.
 18) After turning on monitor and S1, you should see white blocks on a black background. If you don't see it, try changing R20 (vertical sync) and R21 (horizontal sync). If all fails, try to center both potentiometer. This usually results in a non-optimal picture, but a picture non-the-less. You can then calibrate.
 19) (Don't forget to turn off system!) Insert the static video RAM (2102). These ICs only require +5V.
 20) Now you need to configure the memory addresses and the memory configuration. With DIP switches, configure as follows:
   - (memory location configuration) Z3: Switch 1 to the left, while all others are to the right. This is the configuration for 12k ROM and 16k RAM.
   - (memory type configuration) Z71: Switch 1, 3, 5 to the right while all others are to the left. This is the configuration for 16k RAM modules.
-21) Insert the dynamic RAM (41116). These ICs require all three voltages.
+21) Insert the dynamic RAM (4116). These ICs require all three voltages.
 22) Insert CPU. Not much should have changed from the video calibration up until now. The next step will change that.
 23) Insert character generator. Instead of white blocks, you should see (random) characters. The system doesn't clear the video memory yet since no ROM is installed.
 24) Install ROM. This should be a Level II v1.3. If you don't have this, you probably need additional circuity to make these work. You can also burn the [diag ROM](https://github.com/misterblack1/trs80-diagnosticrom/blob/main/trs80m13diag.bin) on a 2k ROM to test the system. The diag ROM should work for all revisions of the TRS-80 Model 1.
