@@ -109,7 +109,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |C43|1|47pF (47) capacitor||0.4|0.4|[Mouser](https://www.mouser.com/ProductDetail/594-S470K25SL0N63L6R)|
 |CR1|1|1N4735 Zener diode||0.25|0.25|[Mouser](https://www.mouser.com/ProductDetail/512-1N4735A)|
 |CR2|1|1N5231 Zener diode||0.15|0.15|[Mouser](https://www.mouser.com/ProductDetail/512-1N5231B)|
-|CR3, CR4, CR5, CR6, CR7|5|1N4148|Diode||0.1|0.5|[Mouser](https://www.mouser.com/ProductDetail/512-1N4148)|
+|CR3, CR4, CR5, CR6, CR7|5|1N4148|Diode|0.1|0.5|[Mouser](https://www.mouser.com/ProductDetail/512-1N4148)|
 |CR8|1|MDA202 Diode bridge, +ve/AC/AC/-ve|Replacement|0.61|0.61|[Mouser](https://www.mouser.com/ProductDetail/621-KBP210G)|
 |CR9, CR10|2|1N982 Schottky diode|Replacement, Lower (39V instead of 75V)|0.26|0.52|[Mouser](https://www.mouser.com/ProductDetail/78-1N4754A-TAP)|
 |J1, J2, J3|3|5-pin DIN connector (5-pin DIN-5 stereo)||0.386|1.158|[AliExpress](https://www.aliexpress.us/item/2255801077942335.html)|
@@ -183,7 +183,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |Z34|1|2332 (20- & 21-pin Low) 2332 32kBit (4kb x 8) PROM|Adapter needed||0|-|
 |Z40|1|Z80 CPU||9.62|9.62|[Mouser](https://www.mouser.com/ProductDetail/692-Z84C0010PEG)|
 |Z41|1|75452 Dual-Peripheral Drivers for High-Current, High-Speed Switching||0.9|0.9|[Mouser](https://www.mouser.com/ProductDetail/595-SN75452BP)|
-|Z45, Z46, Z47, Z48, Z61, Z62, Z63|7|2102 1K Static RAM (SRAM)||2.95|20.65|[Jameco](https://www.jameco.com/z/MM2102AN-4-National-Semiconductor-IC-MM2102AN-4-NMOS-SRAM-1024-Bit-1024x1-250ns-DIP-16_2287991.html)|
+|Z45, Z46, Z47, Z48, Z61, Z62, Z63|7|2102 1K Static RAM (SRAM)|7th IC needed for lowercase mod|2.95|20.65|[Jameco](https://www.jameco.com/z/MM2102AN-4-National-Semiconductor-IC-MM2102AN-4-NMOS-SRAM-1024-Bit-1024x1-250ns-DIP-16_2287991.html)|
 |Z54|1|74LS30 8-input NAND||1.18|1.18|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS30N)|
 |Z56, Z58|2|74LS92 Divide by 12 counter||3.27|6.54|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS92N)|
 |Z66|1|74LS11 Triple 3-input AND||0.91|0.91|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS11N)|
