@@ -162,7 +162,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |Z3, Z71|2|8-Bit DIP Switch|Replacement|2.07|4.14|[Mouser](https://www.mouser.com/ProductDetail/710-418117270908)|
 |Z4|1|LM3900 Quad operational amplifier||0.6|0.6|[Mouser](https://www.mouser.com/ProductDetail/595-LM3900NE4)|
 |Z5|1|74C00 quad 2-input NAND gate||0.62|0.62|[Mouser](https://www.mouser.com/ProductDetail/595-CD74HC00E)|
-|Z6, Z57|2|74C04 Hex Inverter||0.47|0.94|[Mouser](https://www.mouser.com/ProductDetail/595-SN74HC04AN)|
+|Z6, Z57|2|74C04 Hex Inverter||2.49|4.98|[Jameco](https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10001&langId=-1&catalogId=10001&productId=44231)|
 |Z7, Z69, Z70|3|74LS74 Dual D Flip-flop, Set & Reset||0.49|1.47|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS74AN)|
 |Z8|1|74LS153 Dual Multiplexer 4 to 1||1.13|1.13|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS153N)|
 |Z9, Z42, Z52|3|74LS04 Hex Inverter||0.67|2.01|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS04N)|
