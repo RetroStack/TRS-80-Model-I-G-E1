@@ -109,7 +109,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |C43|1|47pF (47) capacitor||0.4|0.4|[Mouser](https://www.mouser.com/ProductDetail/594-S470K25SL0N63L6R)|
 |CR1|1|1N4735 Zener diode||0.25|0.25|[Mouser](https://www.mouser.com/ProductDetail/512-1N4735A)|
 |CR2|1|1N5231 Zener diode||0.15|0.15|[Mouser](https://www.mouser.com/ProductDetail/512-1N5231B)|
-|CR3, CR4, CR5, CR6, CR7|5|1N4148|D|Diode||0.1|0.5|[Mouser](https://www.mouser.com/ProductDetail/512-1N4148)|
+|CR3, CR4, CR5, CR6, CR7|5|1N4148|Diode||0.1|0.5|[Mouser](https://www.mouser.com/ProductDetail/512-1N4148)|
 |CR8|1|MDA202 Diode bridge, +ve/AC/AC/-ve|Replacement|0.61|0.61|[Mouser](https://www.mouser.com/ProductDetail/621-KBP210G)|
 |CR9, CR10|2|1N982 Schottky diode|Replacement, Lower (39V instead of 75V)|0.26|0.52|[Mouser](https://www.mouser.com/ProductDetail/78-1N4754A-TAP)|
 |J1, J2, J3|3|5-pin DIN connector (5-pin DIN-5 stereo)||0.386|1.158|[AliExpress](https://www.aliexpress.us/item/2255801077942335.html)|
@@ -118,7 +118,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |Q1|1|2N3904 0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92||0.35|0.35|[Mouser](https://www.mouser.com/ProductDetail/512-2N3904BU)|
 |Q2, Q5|2|2N3906 -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92||0.28|0.56|[Mouser](https://www.mouser.com/ProductDetail/512-2N3906BU)|
 |Q3|1|TIP29A (BCE) NPN transistor||1.01|1.01|[Mouser](https://www.mouser.com/ProductDetail/863-TIP29AG)|
-|Q4|1|2N6594 (BEC) PNP transistor|Replacement (Other: RS2040)|10|10|eBay|
+|Q4|1|2N6594 (BEC) PNP transistor|Replacement (Other: RS2040, MJ2955G)|4.73|4.73|[Mouser](https://www.mouser.com/ProductDetail/863-MJ2955G)|
 |Q6|1|MJE34 (BCE) PNP transistor|Replacement|0.67|0.67|[Mouser](https://www.mouser.com/ProductDetail/511-TIP32C)|
 |-|1|Q4 Heatsink||1.01|1.01|[Mouser](https://www.mouser.com/ProductDetail/532-506007B00)|
 |-|1|Q6 Heatsink|Smaller than original|0.3|0.3|[Mouser](https://www.mouser.com/ProductDetail/532-507302B00)|
@@ -161,8 +161,8 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |Z1, Z2|2|LM723C Linear Regulator (adjustable)||1.04|2.08|[Mouser](https://www.mouser.com/ProductDetail/595-UA723CN)|
 |Z3, Z71|2|8-Bit DIP Switch|Replacement|2.07|4.14|[Mouser](https://www.mouser.com/ProductDetail/710-418117270908)|
 |Z4|1|LM3900 Quad operational amplifier||0.6|0.6|[Mouser](https://www.mouser.com/ProductDetail/595-LM3900NE4)|
-|Z5|1|74C00 quad 2-input NAND gate||~2.50|~2.50|eBay/Jameco|
-|Z6, Z57|2|74C04 Hex Inverter||2.49|4.98|[Jameco](https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10001&langId=-1&catalogId=10001&productId=44231)|
+|Z5|1|74C00 quad 2-input NAND gate|74HC00 works in a pinch, but suboptimal video.|~2.50|~2.50|eBay/Jameco|
+|Z6, Z57|2|74C04 Hex Inverter|74HC00 works in a pinch, but suboptimal video.|2.49|4.98|[Jameco](https://www.jameco.com/webapp/wcs/stores/servlet/ProductDisplay?storeId=10001&langId=-1&catalogId=10001&productId=44231)|
 |Z7, Z69, Z70|3|74LS74 Dual D Flip-flop, Set & Reset||0.49|1.47|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS74AN)|
 |Z8|1|74LS153 Dual Multiplexer 4 to 1||1.13|1.13|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS153N)|
 |Z9, Z42, Z52|3|74LS04 Hex Inverter||0.67|2.01|[Mouser](https://www.mouser.com/ProductDetail/595-SN74LS04N)|
