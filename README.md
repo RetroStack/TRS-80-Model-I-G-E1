@@ -112,7 +112,7 @@ Note: Links and alternatives are provided to assist you in finding the necessary
 |CR3, CR4, CR5, CR6, CR7|5|1N4148|Diode|0.1|0.5|[Mouser](https://www.mouser.com/ProductDetail/512-1N4148)|
 |CR8|1|MDA202 Diode bridge, +ve/AC/AC/-ve|Replacement|0.61|0.61|[Mouser](https://www.mouser.com/ProductDetail/621-KBP210G)|
 |CR9, CR10|2|1N982 Schottky diode|Replacement, Lower (39V instead of 75V)|0.26|0.52|[Mouser](https://www.mouser.com/ProductDetail/78-1N4754A-TAP)|
-|J1, J2, J3|3|5-pin DIN connector (5-pin DIN-5 stereo)||0.386|1.158|[AliExpress](https://www.aliexpress.us/item/2255801077942335.html)|
+|J1, J2, J3|3|5-pin DIN connector (5-pin DIN-5 stereo)|For metal connector only. The plastic plugs don't fit in it.|0.386|1.158|[AliExpress](https://www.aliexpress.us/item/2255801077942335.html)|
 |J100|1|01x20 Generic connector, single row, 01x20||0.5|0.5|[Mouser](https://www.mouser.com/ProductDetail/649-1012937992002BLF)|
 |K1|1|Relay SPST, Normally Open|Slightly smaller than original|14.84|14.84|[DigiKey](https://www.digikey.com/en/products/detail/sensata-cynergy3/S2-05P/4425813)|
 |Q1|1|2N3904 0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92||0.35|0.35|[Mouser](https://www.mouser.com/ProductDetail/512-2N3904BU)|
