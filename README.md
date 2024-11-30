@@ -83,7 +83,7 @@ Additionally, supply the following comment for the manufacturer:
 >
 > There are some missing pads on the top layer. That is correct. Please leave them as-is.
 
-This addresses recurring questions from some of the interesting designs that were used on the original board which was replicated. See the "Curiosities" section below.
+This addresses recurring questions from some of the interesting designs that were used on the original board which was replicated. See the ["Curiosities"](/Curiosities.md) page.
 
 ### Bill of Materials (BOM)
 
