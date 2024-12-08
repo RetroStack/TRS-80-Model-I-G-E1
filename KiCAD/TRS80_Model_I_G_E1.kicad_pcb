@@ -91,7 +91,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes no)
 			(usegerberadvancedattributes no)
 			(creategerberjobfile no)
@@ -122,7 +122,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Latest/PCBWay")
+			(outputdirectory "../Latest/JLCPCB")
 		)
 	)
 	(net 0 "")
@@ -11804,7 +11804,7 @@
 		)
 		(fp_arc
 			(start 0 -2.491401)
-			(mid 1.367314 -2.082674)
+			(mid 1.367315 -2.082674)
 			(end 2.285999 -0.9906)
 			(stroke
 				(width 0.5)
@@ -46480,7 +46480,7 @@
 		)
 		(fp_arc
 			(start 0 -2.491401)
-			(mid 1.367314 -2.082674)
+			(mid 1.367315 -2.082674)
 			(end 2.285999 -0.9906)
 			(stroke
 				(width 0.5)
@@ -50277,7 +50277,7 @@
 		)
 		(fp_arc
 			(start 0 -2.491401)
-			(mid 1.367314 -2.082674)
+			(mid 1.367315 -2.082674)
 			(end 2.285999 -0.9906)
 			(stroke
 				(width 0.5)
@@ -63020,8 +63020,8 @@
 		(uuid "db68ac83-c2ba-4133-9df8-1828a9659eb4")
 	)
 	(gr_circle
-		(center 128.52 156.25)
-		(end 133.135 156.25)
+		(center 128.5 156.25)
+		(end 133.115 156.25)
 		(stroke
 			(width 0.1)
 			(type default)
