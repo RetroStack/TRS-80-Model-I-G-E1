@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "dd95c488-6858-4267-8df4-a35004951aed")
 	(paper "USLetter")
 	(title_block
@@ -249,24 +249,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -278,6 +260,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -299,24 +299,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -328,6 +310,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -349,24 +349,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -378,6 +360,24 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -437,6 +437,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "RetroStackLibrary:74LS367_Split"
 			(pin_names
@@ -527,24 +528,6 @@
 						(type background)
 					)
 				)
-				(pin input inverted
-					(at 0 6.35 270)
-					(length 4.445)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -556,6 +539,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 6.35 270)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -745,24 +746,6 @@
 						(type background)
 					)
 				)
-				(pin tri_state line
-					(at 8.255 -6.35 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -6.985 -6.35 0)
 					(length 3.81)
@@ -799,6 +782,24 @@
 						)
 					)
 				)
+				(pin tri_state line
+					(at 8.255 -6.35 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74LS367_Split_6_0"
 				(polyline
@@ -813,24 +814,6 @@
 						(type background)
 					)
 				)
-				(pin tri_state line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -842,6 +825,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -901,6 +902,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -978,7 +980,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -990,7 +992,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1004,7 +1006,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -1021,6 +1024,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1100,7 +1104,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1117,7 +1122,41 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Bi-directional\nData Bus"
+		(exclude_from_sim no)
+		(at 204.47 29.845 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "47ecc1f2-6a31-4240-a6d3-794d501041d3")
+	)
+	(text "Address Bus"
+		(exclude_from_sim no)
+		(at 73.025 24.13 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "75811ab9-72bf-4a54-9d98-c0d6a864d297")
+	)
+	(text "Control Signals"
+		(exclude_from_sim no)
+		(at 132.08 27.94 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad720997-e4ef-44f8-a053-034f12d1d6ef")
 	)
 	(junction
 		(at 156.21 140.97)
@@ -3627,42 +3666,8 @@
 		)
 		(uuid "ffc1f42c-198c-4aa9-8b12-d5d7c1f2c8a7")
 	)
-	(text "Bi-directional\nData Bus"
-		(exclude_from_sim no)
-		(at 204.47 29.845 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "47ecc1f2-6a31-4240-a6d3-794d501041d3")
-	)
-	(text "Address Bus"
-		(exclude_from_sim no)
-		(at 73.025 24.13 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "75811ab9-72bf-4a54-9d98-c0d6a864d297")
-	)
-	(text "Control Signals"
-		(exclude_from_sim no)
-		(at 132.08 27.94 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad720997-e4ef-44f8-a053-034f12d1d6ef")
-	)
 	(label "ZA8"
 		(at 65.405 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3673,7 +3678,6 @@
 	)
 	(label "ZD2"
 		(at 188.595 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3684,7 +3688,6 @@
 	)
 	(label "ZA0"
 		(at 65.405 36.195 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3695,7 +3698,6 @@
 	)
 	(label "A3"
 		(at 89.535 65.405 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3706,7 +3708,6 @@
 	)
 	(label "ZA4"
 		(at 65.405 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3717,7 +3718,6 @@
 	)
 	(label "D7"
 		(at 227.965 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3728,7 +3728,6 @@
 	)
 	(label "ZA9"
 		(at 65.405 123.825 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3739,7 +3738,6 @@
 	)
 	(label "ZA11"
 		(at 65.405 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3750,7 +3748,6 @@
 	)
 	(label "ZD3"
 		(at 188.595 70.485 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3761,7 +3758,6 @@
 	)
 	(label "D3"
 		(at 227.965 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3772,7 +3768,6 @@
 	)
 	(label "ZA6"
 		(at 65.405 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3783,7 +3778,6 @@
 	)
 	(label "A12"
 		(at 89.535 153.035 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3794,7 +3788,6 @@
 	)
 	(label "ZD7"
 		(at 188.595 118.745 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3805,7 +3798,6 @@
 	)
 	(label "A5"
 		(at 89.535 81.915 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3816,7 +3808,6 @@
 	)
 	(label "D5"
 		(at 227.965 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3827,7 +3818,6 @@
 	)
 	(label "ZA2"
 		(at 65.405 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3838,7 +3828,6 @@
 	)
 	(label "ZA3"
 		(at 65.405 65.405 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3849,7 +3838,6 @@
 	)
 	(label "D0"
 		(at 227.965 40.005 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3860,7 +3848,6 @@
 	)
 	(label "ZA10"
 		(at 65.405 136.525 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3871,7 +3858,6 @@
 	)
 	(label "D2"
 		(at 227.965 64.135 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3882,7 +3868,6 @@
 	)
 	(label "A9"
 		(at 89.535 123.825 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3893,7 +3878,6 @@
 	)
 	(label "ZA13"
 		(at 65.405 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3904,7 +3888,6 @@
 	)
 	(label "A7"
 		(at 89.535 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3915,7 +3898,6 @@
 	)
 	(label "A6"
 		(at 89.535 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3926,7 +3908,6 @@
 	)
 	(label "D1"
 		(at 227.965 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3937,7 +3918,6 @@
 	)
 	(label "ZD6"
 		(at 188.595 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3948,7 +3928,6 @@
 	)
 	(label "A13"
 		(at 89.535 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3959,7 +3938,6 @@
 	)
 	(label "A15"
 		(at 89.535 182.245 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3970,7 +3948,6 @@
 	)
 	(label "A14"
 		(at 89.535 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3981,7 +3958,6 @@
 	)
 	(label "A10"
 		(at 89.535 136.525 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3992,7 +3968,6 @@
 	)
 	(label "ZD1"
 		(at 188.595 46.355 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4003,7 +3978,6 @@
 	)
 	(label "D6"
 		(at 227.965 109.855 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4014,7 +3988,6 @@
 	)
 	(label "ZA5"
 		(at 65.405 81.915 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4025,7 +3998,6 @@
 	)
 	(label "A1"
 		(at 89.535 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4036,7 +4008,6 @@
 	)
 	(label "A0"
 		(at 89.535 36.195 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4047,7 +4018,6 @@
 	)
 	(label "A2"
 		(at 89.535 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4058,7 +4028,6 @@
 	)
 	(label "ZD4"
 		(at 188.595 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4069,7 +4038,6 @@
 	)
 	(label "ZA15"
 		(at 65.405 182.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4080,7 +4048,6 @@
 	)
 	(label "ZA12"
 		(at 65.405 153.035 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4091,7 +4058,6 @@
 	)
 	(label "A4"
 		(at 89.535 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4102,7 +4068,6 @@
 	)
 	(label "ZA7"
 		(at 65.405 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4113,7 +4078,6 @@
 	)
 	(label "A8"
 		(at 89.535 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4124,7 +4088,6 @@
 	)
 	(label "ZD0"
 		(at 188.595 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4135,7 +4098,6 @@
 	)
 	(label "A11"
 		(at 89.535 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4146,7 +4108,6 @@
 	)
 	(label "ZA1"
 		(at 65.405 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4157,7 +4118,6 @@
 	)
 	(label "D4"
 		(at 227.965 85.725 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4168,7 +4128,6 @@
 	)
 	(label "ZA14"
 		(at 65.405 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4179,7 +4138,6 @@
 	)
 	(label "ZD5"
 		(at 188.595 94.615 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4191,7 +4149,6 @@
 	(hierarchical_label "ZD[0..7]"
 		(shape bidirectional)
 		(at 182.88 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4203,7 +4160,6 @@
 	(hierarchical_label "~{ZRD}"
 		(shape input)
 		(at 132.08 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4215,7 +4171,6 @@
 	(hierarchical_label "~{ZIN}"
 		(shape input)
 		(at 132.08 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4227,7 +4182,6 @@
 	(hierarchical_label "~{ZCAS}"
 		(shape input)
 		(at 132.08 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4239,7 +4193,6 @@
 	(hierarchical_label "~{RD}"
 		(shape output)
 		(at 147.32 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4251,7 +4204,6 @@
 	(hierarchical_label "~{WR}"
 		(shape output)
 		(at 147.32 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4263,7 +4215,6 @@
 	(hierarchical_label "~{TEST}"
 		(shape input)
 		(at 28.575 26.035 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4275,7 +4226,6 @@
 	(hierarchical_label "MUX"
 		(shape output)
 		(at 147.32 52.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4287,7 +4237,6 @@
 	(hierarchical_label "~{ZRAS}"
 		(shape input)
 		(at 132.08 36.195 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4299,7 +4248,6 @@
 	(hierarchical_label "~{CAS}"
 		(shape output)
 		(at 147.32 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4311,7 +4259,6 @@
 	(hierarchical_label "ZA[0..15]"
 		(shape input)
 		(at 59.69 32.385 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4323,7 +4270,6 @@
 	(hierarchical_label "~{OUT}"
 		(shape output)
 		(at 147.32 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4335,7 +4281,6 @@
 	(hierarchical_label "D[0..7]"
 		(shape bidirectional)
 		(at 233.68 36.195 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4347,7 +4292,6 @@
 	(hierarchical_label "ZMUX"
 		(shape input)
 		(at 132.08 52.705 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4359,7 +4303,6 @@
 	(hierarchical_label "~{DBOUT}"
 		(shape input)
 		(at 167.005 26.035 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4371,7 +4314,6 @@
 	(hierarchical_label "~{IN}"
 		(shape output)
 		(at 147.32 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4383,7 +4325,6 @@
 	(hierarchical_label "~{ZWR}"
 		(shape input)
 		(at 132.08 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4395,7 +4336,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape output)
 		(at 95.25 32.385 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4407,7 +4347,6 @@
 	(hierarchical_label "~{DBIN}"
 		(shape input)
 		(at 245.745 26.035 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4419,7 +4358,6 @@
 	(hierarchical_label "~{RAS}"
 		(shape output)
 		(at 147.32 36.195 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4431,7 +4369,6 @@
 	(hierarchical_label "~{ZOUT}"
 		(shape input)
 		(at 132.08 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

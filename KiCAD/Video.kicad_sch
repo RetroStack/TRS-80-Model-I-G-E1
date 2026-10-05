@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ddc890d1-60a8-48b4-bae2-22e60020313f")
 	(paper "USLetter")
 	(title_block
@@ -534,7 +534,6 @@
 	)
 	(label "L3"
 		(at 152.4 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -546,7 +545,6 @@
 	(hierarchical_label "MODESEL"
 		(shape input)
 		(at 25.4 70.485 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -558,7 +556,6 @@
 	(hierarchical_label "~{RD}"
 		(shape input)
 		(at 71.12 78.105 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -570,7 +567,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 71.12 67.945 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -582,7 +578,6 @@
 	(hierarchical_label "~{CLK_EN}"
 		(shape input)
 		(at 25.4 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -594,7 +589,6 @@
 	(hierarchical_label "HI"
 		(shape input)
 		(at 25.4 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -606,7 +600,6 @@
 	(hierarchical_label "~{VID}"
 		(shape input)
 		(at 71.12 84.455 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -618,7 +611,6 @@
 	(hierarchical_label "~{WR}"
 		(shape input)
 		(at 71.12 80.645 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -630,7 +622,6 @@
 	(hierarchical_label "CLK"
 		(shape input)
 		(at 25.4 67.945 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -642,7 +633,6 @@
 	(hierarchical_label "D[0..7]"
 		(shape bidirectional)
 		(at 132.715 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -654,6 +644,10 @@
 	(sheet
 		(at 195.58 107.315)
 		(size 25.4 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -684,33 +678,33 @@
 		)
 		(pin "SYNC" output
 			(at 220.98 109.855 0)
+			(uuid "0e32aec8-457a-4091-83b5-aa77ec87571f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0e32aec8-457a-4091-83b5-aa77ec87571f")
 		)
 		(pin "VDRV" input
 			(at 195.58 112.395 180)
+			(uuid "d17ad0dd-0c00-473b-9927-36cd25a622d1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d17ad0dd-0c00-473b-9927-36cd25a622d1")
 		)
 		(pin "HDRV" input
 			(at 195.58 109.855 180)
+			(uuid "cec14282-b0e6-4082-b3af-a2fd0e09ba9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cec14282-b0e6-4082-b3af-a2fd0e09ba9c")
 		)
 		(instances
 			(project "TRS80_Model_I_G_E1"
@@ -723,6 +717,10 @@
 	(sheet
 		(at 153.035 65.405)
 		(size 27.305 27.305)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -753,113 +751,113 @@
 		)
 		(pin "~{VID}" input
 			(at 153.035 87.63 180)
+			(uuid "3a1ae598-eaf0-4b9b-8843-76248e1352b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3a1ae598-eaf0-4b9b-8843-76248e1352b5")
 		)
 		(pin "HDRV" input
 			(at 153.035 79.375 180)
+			(uuid "987857ba-04b6-41a5-848c-dbb8851e1e23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "987857ba-04b6-41a5-848c-dbb8851e1e23")
 		)
 		(pin "VDRV" input
 			(at 153.035 81.915 180)
+			(uuid "42c3f092-c440-44e2-9791-81a6927ac3c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42c3f092-c440-44e2-9791-81a6927ac3c6")
 		)
 		(pin "VD[0..7]" input
 			(at 153.035 67.945 180)
+			(uuid "4a461242-4a8e-42f0-abb3-3d9bc2e988df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4a461242-4a8e-42f0-abb3-3d9bc2e988df")
 		)
 		(pin "~{LATCH}" input
 			(at 153.035 90.17 180)
+			(uuid "50c4f4a5-878b-471e-aab2-23f6785b569c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "50c4f4a5-878b-471e-aab2-23f6785b569c")
 		)
 		(pin "GRAPHICS" output
 			(at 180.34 72.39 0)
+			(uuid "f723d10c-acaf-402c-afef-d7c98e841e7d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f723d10c-acaf-402c-afef-d7c98e841e7d")
 		)
 		(pin "LB[0..6]" output
 			(at 180.34 67.945 0)
+			(uuid "e450f52f-3d89-491b-af62-6bc4562396e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e450f52f-3d89-491b-af62-6bc4562396e9")
 		)
 		(pin "~{BLANK}" output
 			(at 180.34 81.915 0)
+			(uuid "40be3162-7a69-4208-a0c2-f6a928e1a3fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "40be3162-7a69-4208-a0c2-f6a928e1a3fb")
 		)
 		(pin "~{CHARGAP}" output
 			(at 180.34 79.375 0)
+			(uuid "c6096e8c-a8d8-4897-a602-90f332335a66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c6096e8c-a8d8-4897-a602-90f332335a66")
 		)
 		(pin "~{GRAPHICS}" output
 			(at 180.34 74.93 0)
+			(uuid "a90d4559-fe69-4fb6-a0fb-d72161258e0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a90d4559-fe69-4fb6-a0fb-d72161258e0d")
 		)
 		(pin "L3" input
 			(at 153.035 73.66 180)
+			(uuid "c2f9c9ba-98d1-4053-9212-84ec695cd147")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c2f9c9ba-98d1-4053-9212-84ec695cd147")
 		)
 		(instances
 			(project "TRS80_Model_I_G_E1"
@@ -872,6 +870,10 @@
 	(sheet
 		(at 28.575 65.405)
 		(size 25.4 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -902,113 +904,113 @@
 		)
 		(pin "VDRV" output
 			(at 53.975 112.395 0)
+			(uuid "c76c177f-a156-437f-9226-c9f1d30f5759")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c76c177f-a156-437f-9226-c9f1d30f5759")
 		)
 		(pin "CLK" input
 			(at 28.575 67.945 180)
+			(uuid "9b0bf513-4443-44ea-8185-66379ee272a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9b0bf513-4443-44ea-8185-66379ee272a8")
 		)
 		(pin "HI" input
 			(at 28.575 80.01 180)
+			(uuid "83903384-0e22-4e5f-bdfb-d47e438ea413")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "83903384-0e22-4e5f-bdfb-d47e438ea413")
 		)
 		(pin "SHIFT" output
 			(at 53.975 97.79 0)
+			(uuid "9d78bf8e-36bf-42ed-929d-dd6f82c3344c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9d78bf8e-36bf-42ed-929d-dd6f82c3344c")
 		)
 		(pin "HDRV" output
 			(at 53.975 109.855 0)
+			(uuid "297ac70e-a7b8-4053-b7b1-1ccaee94ec0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "297ac70e-a7b8-4053-b7b1-1ccaee94ec0a")
 		)
 		(pin "~{CLK_EN}" input
 			(at 28.575 77.47 180)
+			(uuid "d5e068f2-34c2-419d-b2b7-47d6621bd8bf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d5e068f2-34c2-419d-b2b7-47d6621bd8bf")
 		)
 		(pin "MODESEL" input
 			(at 28.575 70.485 180)
+			(uuid "a82e082b-bd63-40aa-8a70-8c953bc8e8dd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a82e082b-bd63-40aa-8a70-8c953bc8e8dd")
 		)
 		(pin "~{LATCH}" output
 			(at 53.975 95.25 0)
+			(uuid "7d1b224d-4d52-4ac1-8c37-8908a81f2ac4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d1b224d-4d52-4ac1-8c37-8908a81f2ac4")
 		)
 		(pin "L[0..3]" output
 			(at 53.975 67.945 0)
+			(uuid "f620f106-fe8f-4b9b-a5ac-79d64452a9a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f620f106-fe8f-4b9b-a5ac-79d64452a9a5")
 		)
 		(pin "C[0..5]" output
 			(at 53.975 72.39 0)
+			(uuid "e120c35b-6fff-48d4-907b-d28c0181305d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e120c35b-6fff-48d4-907b-d28c0181305d")
 		)
 		(pin "R[0..3]" output
 			(at 53.975 74.93 0)
+			(uuid "659a6a17-7328-4b84-b6ff-2b35d7056261")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "659a6a17-7328-4b84-b6ff-2b35d7056261")
 		)
 		(instances
 			(project "TRS80_Model_I_G_E1"
@@ -1021,6 +1023,10 @@
 	(sheet
 		(at 105.41 65.405)
 		(size 25.4 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1051,53 +1057,53 @@
 		)
 		(pin "D[0..7]" bidirectional
 			(at 130.81 72.39 0)
+			(uuid "fc279772-c0d2-4254-93c3-95c30581463b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc279772-c0d2-4254-93c3-95c30581463b")
 		)
 		(pin "~{VRD}" input
 			(at 105.41 72.39 180)
+			(uuid "8d3bde78-8c58-4079-ad1f-1308b0849047")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d3bde78-8c58-4079-ad1f-1308b0849047")
 		)
 		(pin "~{VWR}" input
 			(at 105.41 74.93 180)
+			(uuid "b4e62d51-9720-4544-8afb-abf345c8834d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b4e62d51-9720-4544-8afb-abf345c8834d")
 		)
 		(pin "VA[0..9]" input
 			(at 105.41 67.945 180)
+			(uuid "ac216da8-b6db-4e93-ba74-636a10d413fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ac216da8-b6db-4e93-ba74-636a10d413fb")
 		)
 		(pin "VD[0..7]" output
 			(at 130.81 67.945 0)
+			(uuid "a2f6f537-d2ee-470a-80a6-d90dd757bdfd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2f6f537-d2ee-470a-80a6-d90dd757bdfd")
 		)
 		(instances
 			(project "TRS80_Model_I_G_E1"
@@ -1110,6 +1116,10 @@
 	(sheet
 		(at 232.41 62.865)
 		(size 28.575 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1140,23 +1150,23 @@
 		)
 		(pin "PIXEL" input
 			(at 232.41 65.405 180)
+			(uuid "b334db26-f61f-403c-b116-eb2221a69f0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b334db26-f61f-403c-b116-eb2221a69f0b")
 		)
 		(pin "SYNC" input
 			(at 232.41 67.945 180)
+			(uuid "cc2777d3-187f-4b9a-b201-06cd155f088a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cc2777d3-187f-4b9a-b201-06cd155f088a")
 		)
 		(instances
 			(project "TRS80_Model_I_G_E1"
@@ -1169,6 +1179,10 @@
 	(sheet
 		(at 75.565 65.405)
 		(size 25.4 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1199,93 +1213,93 @@
 		)
 		(pin "A[0..15]" input
 			(at 75.565 67.945 180)
+			(uuid "b593080f-9f69-4fe6-abc8-574c37192363")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b593080f-9f69-4fe6-abc8-574c37192363")
 		)
 		(pin "~{WR}" input
 			(at 75.565 80.645 180)
+			(uuid "15509200-a767-4aec-adb8-a4e38385f2b2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "15509200-a767-4aec-adb8-a4e38385f2b2")
 		)
 		(pin "~{VRD}" output
 			(at 100.965 72.39 0)
+			(uuid "66daa56f-71dd-4a6b-9d0e-9117791a2ec0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "66daa56f-71dd-4a6b-9d0e-9117791a2ec0")
 		)
 		(pin "~{VWR}" output
 			(at 100.965 74.93 0)
+			(uuid "ed78197b-d9f1-426d-887b-4b1d6fee1971")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ed78197b-d9f1-426d-887b-4b1d6fee1971")
 		)
 		(pin "C[0..5]" input
 			(at 75.565 72.39 180)
+			(uuid "55d893de-1183-4dd1-8037-5de651c5f00e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "55d893de-1183-4dd1-8037-5de651c5f00e")
 		)
 		(pin "R[0..3]" input
 			(at 75.565 74.93 180)
+			(uuid "cba70a6e-8fab-4ff1-b029-b5ccfed94e1c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cba70a6e-8fab-4ff1-b029-b5ccfed94e1c")
 		)
 		(pin "~{RD}" input
 			(at 75.565 78.105 180)
+			(uuid "730251a8-f07a-47e8-b3d8-8b32817ce900")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "730251a8-f07a-47e8-b3d8-8b32817ce900")
 		)
 		(pin "~{VID}" input
 			(at 75.565 84.455 180)
+			(uuid "433d5b80-589b-45a2-97a0-2a132f03e998")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "433d5b80-589b-45a2-97a0-2a132f03e998")
 		)
 		(pin "VA[0..9]" output
 			(at 100.965 67.945 0)
+			(uuid "fded95d8-b47e-46f0-a588-60c5944368f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fded95d8-b47e-46f0-a588-60c5944368f2")
 		)
 		(instances
 			(project "TRS80_Model_I_G_E1"
@@ -1298,6 +1312,10 @@
 	(sheet
 		(at 195.58 62.865)
 		(size 25.4 37.465)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1328,93 +1346,93 @@
 		)
 		(pin "PIXEL" output
 			(at 220.98 65.405 0)
+			(uuid "330d2b12-45b0-4afa-8f1e-9199c6f8a957")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "330d2b12-45b0-4afa-8f1e-9199c6f8a957")
 		)
 		(pin "~{GRAPHICS}" input
 			(at 195.58 74.93 180)
+			(uuid "6695ffcb-f3b2-4715-9709-c83951bce30a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6695ffcb-f3b2-4715-9709-c83951bce30a")
 		)
 		(pin "~{CHARGAP}" input
 			(at 195.58 79.375 180)
+			(uuid "42d746af-2e6e-4d9b-8dd5-e42342101ed7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42d746af-2e6e-4d9b-8dd5-e42342101ed7")
 		)
 		(pin "GRAPHICS" input
 			(at 195.58 72.39 180)
+			(uuid "56786656-43ed-4a05-9943-fab0b13badbf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "56786656-43ed-4a05-9943-fab0b13badbf")
 		)
 		(pin "~{BLANK}" input
 			(at 195.58 81.915 180)
+			(uuid "19dca332-7c60-4c64-9207-e9edfa15abe4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "19dca332-7c60-4c64-9207-e9edfa15abe4")
 		)
 		(pin "~{LATCH}" input
 			(at 195.58 95.25 180)
+			(uuid "1d53a6a0-0985-4b41-bc87-788bd76677c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1d53a6a0-0985-4b41-bc87-788bd76677c4")
 		)
 		(pin "SHIFT" input
 			(at 195.58 97.79 180)
+			(uuid "3ff8a3b4-f408-41e5-b6bf-bef74cddbc39")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3ff8a3b4-f408-41e5-b6bf-bef74cddbc39")
 		)
 		(pin "L[0..3]" input
 			(at 195.58 65.405 180)
+			(uuid "ace5761c-31f8-4460-9986-913286962f95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ace5761c-31f8-4460-9986-913286962f95")
 		)
 		(pin "LB[0..6]" input
 			(at 195.58 67.945 180)
+			(uuid "eaabc763-2783-4639-8d75-288fb0dcb9ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "eaabc763-2783-4639-8d75-288fb0dcb9ae")
 		)
 		(instances
 			(project "TRS80_Model_I_G_E1"

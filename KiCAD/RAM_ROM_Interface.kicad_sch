@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6a346f1d-2bb6-413b-8f9f-84c3198229cd")
 	(paper "USLetter")
 	(title_block
@@ -102,24 +102,6 @@
 						(type background)
 					)
 				)
-				(pin input inverted
-					(at 0 6.35 270)
-					(length 4.445)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -131,6 +113,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 6.35 270)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -320,24 +320,6 @@
 						(type background)
 					)
 				)
-				(pin tri_state line
-					(at 8.255 -6.35 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -6.985 -6.35 0)
 					(length 3.81)
@@ -374,6 +356,24 @@
 						)
 					)
 				)
+				(pin tri_state line
+					(at 8.255 -6.35 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74LS367_Split_6_0"
 				(polyline
@@ -388,24 +388,6 @@
 						(type background)
 					)
 				)
-				(pin tri_state line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -417,6 +399,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -476,6 +476,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -521,22 +522,10 @@
 		(uuid "76d544c9-6fe3-44c8-b21f-53f3d7f21256")
 	)
 	(junction
-		(at 224.155 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d9c4535-cdd0-48ab-a506-04ecbcb0431d")
-	)
-	(junction
 		(at 147.32 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fe6af07-28a1-4bb5-bf80-c05a9267118b")
-	)
-	(junction
-		(at 137.795 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d90b9dd8-f326-4079-92ab-18a4435a1916")
 	)
 	(junction
 		(at 82.55 68.58)
@@ -1022,7 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.155 100.33) (xy 262.255 100.33)
+			(xy 210.185 100.33) (xy 262.255 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1062,7 +1051,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.795 74.93) (xy 262.255 74.93)
+			(xy 123.825 74.93) (xy 262.255 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1262,16 +1251,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.185 100.33) (xy 224.155 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b276ca89-75f4-4705-8e5b-41a9006e6e19")
-	)
-	(wire
-		(pts
 			(xy 167.005 87.63) (xy 262.255 87.63)
 		)
 		(stroke
@@ -1299,16 +1278,6 @@
 			(type default)
 		)
 		(uuid "c66d3205-c7b1-4ce4-bc9c-cf6766956f5e")
-	)
-	(wire
-		(pts
-			(xy 123.825 74.93) (xy 137.795 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8368aaf-6fed-4868-a3a9-ea5547df6f6f")
 	)
 	(bus
 		(pts
@@ -1382,7 +1351,6 @@
 	)
 	(label "D0"
 		(at 261.62 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1393,7 +1361,6 @@
 	)
 	(label "ROMD4"
 		(at 33.655 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1404,7 +1371,6 @@
 	)
 	(label "ROMD0"
 		(at 33.655 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1415,7 +1381,6 @@
 	)
 	(label "D2"
 		(at 261.62 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1426,7 +1391,6 @@
 	)
 	(label "RAMD4"
 		(at 147.32 124.46 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1437,7 +1401,6 @@
 	)
 	(label "D7"
 		(at 261.62 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1448,7 +1411,6 @@
 	)
 	(label "RAMD3"
 		(at 168.91 124.46 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1459,7 +1421,6 @@
 	)
 	(label "D3"
 		(at 261.62 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1470,7 +1431,6 @@
 	)
 	(label "ROMD6"
 		(at 33.655 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1481,7 +1441,6 @@
 	)
 	(label "RAMD2"
 		(at 190.5 124.46 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1492,7 +1451,6 @@
 	)
 	(label "ROMD7"
 		(at 33.655 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,7 +1461,6 @@
 	)
 	(label "RAMD0"
 		(at 233.68 124.46 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1514,7 +1471,6 @@
 	)
 	(label "RAMD1"
 		(at 212.09 124.46 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1525,7 +1481,6 @@
 	)
 	(label "D6"
 		(at 261.62 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1536,7 +1491,6 @@
 	)
 	(label "D1"
 		(at 261.62 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1547,7 +1501,6 @@
 	)
 	(label "ROMD2"
 		(at 33.655 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1558,7 +1511,6 @@
 	)
 	(label "D4"
 		(at 261.62 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1569,7 +1521,6 @@
 	)
 	(label "ROMD5"
 		(at 33.655 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1580,7 +1531,6 @@
 	)
 	(label "ROMD1"
 		(at 33.655 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1591,7 +1541,6 @@
 	)
 	(label "RAMD6"
 		(at 104.14 124.46 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1602,7 +1551,6 @@
 	)
 	(label "RAMD5"
 		(at 125.73 124.46 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1613,7 +1561,6 @@
 	)
 	(label "ROMD3"
 		(at 33.655 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1624,7 +1571,6 @@
 	)
 	(label "RAMD7"
 		(at 82.55 124.46 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1635,7 +1581,6 @@
 	)
 	(label "D5"
 		(at 261.62 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1647,7 +1592,6 @@
 	(hierarchical_label "D[0..7]"
 		(shape bidirectional)
 		(at 264.795 63.5 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1659,7 +1603,6 @@
 	(hierarchical_label "RAMD[0..7]"
 		(shape bidirectional)
 		(at 27.305 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1671,7 +1614,6 @@
 	(hierarchical_label "ROMD[0..7]"
 		(shape bidirectional)
 		(at 27.305 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1683,7 +1625,6 @@
 	(hierarchical_label "~{MEM}"
 		(shape input)
 		(at 27.305 42.545 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
